@@ -1,0 +1,255 @@
+set terminal pdf size 1,8;
+set colorbox
+set output 'colorbar.pdf'
+#set title 'Eigenstate |000001>'
+
+#We want to use the same range for all plots, and i KNOW that nothing is outside this range (is normalized wavefunction squared)
+set cbrange [-0.25:0.25]
+set palette defined (-0.5 'cyan', -0.25 'blue', 0 'black', 0.25 'red', 0.5 'yellow')
+
+set xtic font "Helvetica,20"
+set ytic font "Helvetica,20"
+set ylabel font "Helvetica,20"
+set xlabel font "Helvetica,20"
+set cblabel font "Helvetica,20"
+
+set xlabel 'x lattice site' offset 0,-1.0
+set ylabel 'y lattice site' offset -3.0,0
+
+set cblabel 'q_j'
+
+set terminal pdf size 4,4;
+set output 'q00.pdf'
+set size square
+set key bmargin
+set view map
+#set title 'Eigenstate |000001>'
+
+#We want to use the same range for all plots, and i KNOW that nothing is outside this range (is normalized wavefunction squared)
+set cbrange [-0.25:0.25]
+set palette defined (-0.5 'cyan', -0.25 'blue', 0 'black', 0.25 'red', 0.5 'yellow')
+set colorbox horizontal user origin 0.1, 0.95 size 0.8, 0.02
+
+
+#set xtics format ''
+set ytics ("5" 0,"4" 1,"3" 2,"2" 3,"1" 4,"0" 5)
+set xtics ("5" 5,"4" 4,"3" 3,"2" 2,"1" 1,"0" 0)
+set output 'q00_cb.pdf'
+set notitle
+set title 'Keystate 0 (and 12)'
+splot 'q.tsv' matrix nonuniform index 0  with pm3d notitle
+set title 'f=0.22'
+
+unset colorbox
+#set xtics format ''
+set ytics ("5" 0,"4" 1,"3" 2,"2" 3,"1" 4,"0" 5)
+set xtics ("5" 5,"4" 4,"3" 3,"2" 2,"1" 1,"0" 0)
+unset colorbox
+set output 'q00.pdf'
+set title font "Helvetica,20"
+set title offset -15,2
+set title 'Keystate 0 (and 12)'
+splot 'q.tsv' matrix nonuniform index 0  with pm3d notitle
+set title 'f=0.22 '
+set output 'q02.pdf'
+splot 'q.tsv' matrix nonuniform index 2 with pm3d notitle
+set title 'f=0.4 '
+set output 'q04.pdf'
+splot 'q.tsv' matrix nonuniform index 4  with pm3d notitle
+set title 'f=0.62'
+set output 'q06.pdf'
+splot 'q.tsv' matrix nonuniform index 6  with pm3d notitle
+set title 'f=0.82'
+set output 'q08.pdf'
+splot 'q.tsv' matrix nonuniform index 8 with pm3d notitle
+set title 'Keystate 1'
+set output 'q10.pdf'
+splot 'q.tsv' matrix nonuniform index 10  with pm3d notitle
+set output 'q12.pdf'
+set title 'f=0.22 '
+splot 'q.tsv' matrix nonuniform index 12  with pm3d notitle
+set title 'f=0.4'
+set output 'q14.pdf'
+splot 'q.tsv' matrix nonuniform index 14  with pm3d notitle
+set title 'f=0.62'
+set output 'q16.pdf'
+splot 'q.tsv' matrix nonuniform index 16  with pm3d notitle
+set title 'f=0.82'
+set output 'q18.pdf'
+splot 'q.tsv' matrix nonuniform index 18  with pm3d notitle
+set title 'Keystate 2'
+set output 'q20.pdf'
+splot 'q.tsv' matrix nonuniform index 20 with pm3d notitle
+set output 'q22.pdf'
+set title 'f=0.22 '
+splot 'q.tsv' matrix nonuniform index 22 with pm3d notitle
+set title 'f=0.4'
+set output 'q24.pdf'
+splot 'q.tsv' matrix nonuniform index 24 with pm3d notitle
+set title 'f=0.62'
+set output 'q26.pdf'
+splot 'q.tsv' matrix nonuniform index 26 with pm3d notitle
+set title 'f=0.82'
+set output 'q28.pdf'
+splot 'q.tsv' matrix nonuniform index 28 with pm3d notitle
+set title 'Keystate 3'
+set output 'q30.pdf'
+splot 'q.tsv' matrix nonuniform index 30 with pm3d notitle
+set output 'q32.pdf'
+set title 'f=0.22 '
+splot 'q.tsv' matrix nonuniform index 32 with pm3d notitle
+set title 'f=0.4'
+set output 'q34.pdf'
+splot 'q.tsv' matrix nonuniform index 34 with pm3d notitle
+set title 'f=0.62'
+set output 'q36.pdf'
+splot 'q.tsv' matrix nonuniform index 36 with pm3d notitle
+set title 'f=0.82'
+set output 'q38.pdf'
+splot 'q.tsv' matrix nonuniform index 38 with pm3d notitle
+set title 'Keystate 4'
+set output 'q40.pdf'
+splot 'q.tsv' matrix nonuniform index 40 with pm3d notitle
+set output 'q42.pdf'
+set title 'f=0.2075'
+splot 'q.tsv' matrix nonuniform index 42 with pm3d notitle
+set title 'f=0.4075'
+set output 'q44.pdf'
+splot 'q.tsv' matrix nonuniform index 44 with pm3d notitle
+set title 'f=0.6075'
+set output 'q46.pdf'
+splot 'q.tsv' matrix nonuniform index 46 with pm3d notitle
+set title 'f=0.8075'
+set output 'q48.pdf'
+splot 'q.tsv' matrix nonuniform index 48 with pm3d notitle
+set title 'Keystate 5'
+set output 'q50.pdf'
+splot 'q.tsv' matrix nonuniform index 50 with pm3d notitle
+set output 'q52.pdf'
+set title 'f=0.22 '
+splot 'q.tsv' matrix nonuniform index 52 with pm3d notitle
+set title 'f=0.4'
+set output 'q54.pdf'
+splot 'q.tsv' matrix nonuniform index 54 with pm3d notitle
+set title 'f=0.62'
+set output 'q56.pdf'
+splot 'q.tsv' matrix nonuniform index 56 with pm3d notitle
+set title 'f=0.82'
+set output 'q58.pdf'
+splot 'q.tsv' matrix nonuniform index 58 with pm3d notitle
+set title 'Keystate 6'
+set output 'q60.pdf'
+splot 'q.tsv' matrix nonuniform index 60 with pm3d notitle
+set output 'q62.pdf'
+set title 'f=0.22 '
+splot 'q.tsv' matrix nonuniform index 62 with pm3d notitle
+set title 'f=0.4'
+set output 'q64.pdf'
+splot 'q.tsv' matrix nonuniform index 64 with pm3d notitle
+set output 'q66.pdf'
+set title 'f=0.62'
+splot 'q.tsv' matrix nonuniform index 66 with pm3d notitle
+set title 'f=0.82'
+set output 'q68.pdf'
+splot 'q.tsv' matrix nonuniform index 68 with pm3d notitle
+set title 'Keystate 7'
+set output 'q70.pdf'
+splot 'q.tsv' matrix nonuniform index 70 with pm3d notitle
+set output 'q72.pdf'
+set title 'f=0.22 '
+splot 'q.tsv' matrix nonuniform index 72 with pm3d notitle
+set title 'f=0.4'
+set output 'q74.pdf'
+splot 'q.tsv' matrix nonuniform index 74 with pm3d notitle
+set title 'f=0.62'
+set output 'q76.pdf'
+splot 'q.tsv' matrix nonuniform index 76 with pm3d notitle
+set title 'f=0.82'
+set output 'q78.pdf'
+splot 'q.tsv' matrix nonuniform index 78 with pm3d notitle
+set title 'Keystate 8'
+set output 'q80.pdf'
+splot 'q.tsv' matrix nonuniform index 80 with pm3d notitle
+set output 'q82.pdf'
+set title 'f=0.22 '
+splot 'q.tsv' matrix nonuniform index 82 with pm3d notitle
+set title 'f=0.4'
+set output 'q84.pdf'
+splot 'q.tsv' matrix nonuniform index 84 with pm3d notitle
+set title 'f=0.62'
+set output 'q86.pdf'
+splot 'q.tsv' matrix nonuniform index 86 with pm3d notitle
+set title 'f=0.82'
+set output 'q88.pdf'
+splot 'q.tsv' matrix nonuniform index 88 with pm3d notitle
+set title 'Keystate 9'
+set output 'q90.pdf'
+splot 'q.tsv' matrix nonuniform index 90 with pm3d notitle
+set output 'q92.pdf'
+set title 'f=0.22 '
+splot 'q.tsv' matrix nonuniform index 92 with pm3d notitle
+set title 'f=0.4'
+set output 'q94.pdf'
+splot 'q.tsv' matrix nonuniform index 94 with pm3d notitle
+set title 'f=0.62'
+set output 'q96.pdf'
+splot 'q.tsv' matrix nonuniform index 96 with pm3d notitle
+set title 'f=0.82'
+set output 'q98.pdf'
+splot 'q.tsv' matrix nonuniform index 98 with pm3d notitle
+set title 'Keystate 10'
+set output 'q100.pdf'
+splot 'q.tsv' matrix nonuniform index 100 with pm3d notitle
+set output 'q102.pdf'
+set title 'f=0.22 '
+splot 'q.tsv' matrix nonuniform index 102 with pm3d notitle
+set title 'f=0.4'
+set output 'q104.pdf'
+splot 'q.tsv' matrix nonuniform index 104 with pm3d notitle
+set title 'f=0.62'
+set output 'q106.pdf'
+splot 'q.tsv' matrix nonuniform index 106 with pm3d notitle
+set title 'f=0.82'
+set output 'q108.pdf'
+splot 'q.tsv' matrix nonuniform index 108 with pm3d notitle
+set title 'Keystate 11'
+set output 'q110.pdf'
+splot 'q.tsv' matrix nonuniform index 110 with pm3d notitle
+set output 'q112.pdf'
+set title 'f=0.22 '
+splot 'q.tsv' matrix nonuniform index 112 with pm3d notitle
+set title 'f=0.4'
+set output 'q114.pdf'
+splot 'q.tsv' matrix nonuniform index 114 with pm3d notitle
+set title 'f=0.62'
+set output 'q116.pdf'
+splot 'q.tsv' matrix nonuniform index 116 with pm3d notitle
+set title 'f=0.82'
+set output 'q118.pdf'
+splot 'q.tsv' matrix nonuniform index 118 with pm3d notitle
+set title 'Keystate 12'
+set output 'q120.pdf'
+splot 'q.tsv' matrix nonuniform index 120 with pm3d notitle
+
+set output 'q190.pdf'
+set title 'f=0.92'
+splot 'q_zoom.tsv' matrix nonuniform index 0 with pm3d notitle
+set title 'f=0.93'
+set output 'q191.pdf'
+splot 'q_zoom.tsv' matrix nonuniform index 1 with pm3d notitle
+set title 'f=0.94'
+set output 'q192.pdf'
+splot 'q_zoom.tsv' matrix nonuniform index 2 with pm3d notitle
+
+set ytics ("5" 0,"4" 1,"3" 2,"2" 3,"1" 4,"0" 5)
+set xtics ("5" 5,"4" 4,"3" 3,"2" 2,"1" 1,"0" 0)
+set title 'f=0.12 '
+set output 'c25.pdf'
+splot 'q_crazy.tsv' matrix nonuniform index 3  with pm3d notitle
+set title 'f=0.5075'
+set output 'c50.pdf'
+splot 'q_crazy.tsv' matrix nonuniform index 11  with pm3d notitle
+set title 'f=0.8625'
+set output 'c75.pdf'
+splot 'q_crazy.tsv' matrix nonuniform index 18 with pm3d notitle
+

@@ -1,0 +1,38 @@
+Execute : bin/mps_demonstration.exe 9 6 6 16 32 pos0_9.tsv q9_6_016.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-11.5095,-7.34554e-17)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 11 sweeps (max 32)
+Time to LR 8437822 μs
+AVERAGED time cost over 1272 steps 
+Setting up H matrix:532852μs
+Get eigenvalues    :459235μs
+Use QR canonization:93μs
+Update tensors     :162143μs
+2856573970
+Total 1154325 +- 1498.58
+Total time: 1598509662 μs
+Ground state energy -16.4684
+Execute : bin/mps_demonstration.exe 9 6 6 24 32 pos0_9.tsv q9_6_020.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-11.5095,-7.34554e-17)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking in middle
+Performed 9 sweeps (max 32)
+Time to LR 36156957 μs
+AVERAGED time cost over 1007 steps 
+Setting up H matrix:3400234μs
+Get eigenvalues    :2292784μs
+Use QR canonization:166μs
+Update tensors     :684047μs
+974328381
+Total 2112120 +- 983.644
+Total time: 7103165808 μs
+Ground state energy -16.4824

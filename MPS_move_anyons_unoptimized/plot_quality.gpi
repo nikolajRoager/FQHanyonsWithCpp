@@ -1,0 +1,67 @@
+set term pdf
+set grid
+set out "quality_energy.pdf"
+set xlabel "mps d"
+set ylabel "ground state energy (t)"
+plot[:][-9.8:-9.4]  "quality.tsv" using 1:2 with line linetype 2 title "numerical diagonalization",\
+"quality.tsv" using 1:3 with linespoints linetype 1 title "mps estimate"
+
+set out "quality_error.pdf"
+set xlabel "mps d"
+set ylabel "average relative error %"
+plot[:][0:60]  "quality.tsv" using 1:4 with linespoints linetype 1  notitle
+
+set out "quality_time.pdf"
+set xlabel "mps d"
+set ylabel "Time to optimize (seconds, without potential, seconds)"
+plot "quality.tsv" using 1:5 with linespoints linetype 1  title"Mps method",\
+"quality.tsv" using 1:6 with lines  title"Numerical diagonalization"
+
+
+set out "quality_energy_Big.pdf"
+set xlabel "mps d"
+set ylabel "ground state energy (t)"
+plot  "qualityBig.tsv" using 1:2 with line linetype 2 title "numerical diagonalization",\
+"qualityBig.tsv" using 1:3 with linespoints linetype 1 title "mps estimate"
+
+set out "quality_error_Big.pdf"
+set xlabel "mps d"
+set ylabel "average relative error %"
+plot  "qualityBig.tsv" using 1:4 with linespoints linetype 1  notitle
+
+set out "quality_time_Big.pdf"
+set xlabel "mps d"
+set ylabel "Time to optimize (seconds, without potential, seconds)"
+plot "qualityBig.tsv" using 1:5 with linespoints linetype 1  title"Mps method",\
+"qualityBig.tsv" using 1:6 with lines  title"Numerical diagonalization"
+
+set out "quality_energy_Bigger.pdf"
+set xlabel "mps d"
+set ylabel "ground state energy (t)"
+plot  "qualityBigger.tsv" using 1:2 with line linetype 2 title "numerical diagonalization",\
+"qualityBigger.tsv" using 1:3 with linespoints linetype 1 title "mps estimate"
+
+set out "quality_error_Bigger.pdf"
+set xlabel "mps d"
+set ylabel "average relative error %"
+plot  "qualityBigger.tsv" using 1:4 with linespoints linetype 1  notitle
+
+set out "quality_time_Bigger.pdf"
+set xlabel "mps d"
+set ylabel "Time to optimize (minutes, without potential, minutes)"
+plot "qualityBigger.tsv" using 1:($5/60) with linespoints linetype 1  title"Mps method",\
+"qualityBigger.tsv" using 1:($6/60) with lines  title"Numerical diagonalization"
+
+
+
+
+set out "quality_energy_Biggest.pdf"
+set xlabel "mps d"
+set ylabel "ground state energy (t)"
+plot  "qualityBiggest.tsv" using 1:3 with linespoints linetype 1 title "mps estimate"
+
+
+set out "quality_time_Biggest.pdf"
+set xlabel "mps d"
+set ylabel "Time to optimize (minutes, without potential, minutes)"
+plot "qualityBiggest.tsv" using 1:($5/60) with linespoints linetype 1  title"Mps method"

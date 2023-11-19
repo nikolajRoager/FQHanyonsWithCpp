@@ -1,0 +1,8 @@
+set term pdf
+set out "Stepfitness.pdf"
+set title "Fitness"
+set xlabel "substep"
+set ylabel "Fitness (arbitrary unit)"
+set key out
+plot  "step_log.tsv" using 1:2 with points title "Interpolated",\
+"step_log.tsv" using 1:3 with points linetype 2 title "optimized"

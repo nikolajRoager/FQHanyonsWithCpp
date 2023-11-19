@@ -1,0 +1,96 @@
+set term pdf size 9,3;
+set out "Stepfitness.pdf"
+set title "Cost function between key-states"
+set xlabel "Key-State (at all integers)"
+set ylabel "F (arbitrary units)"
+set key out
+
+
+set xtic font "Helvetica,20"
+set ytic font "Helvetica,20"
+set ylabel font "Helvetica,20"
+set xlabel font "Helvetica,20"
+set cblabel font "Helvetica,20"
+
+
+set xtics 1
+set mxtics 5
+
+set style line 100 lt 1 lc rgb "dark-gray" lw 0.5
+set style line 101 lt 1 lc rgb "light-gray" lw 0.25
+
+set grid mytics ytics ls 100, ls 101
+set grid mxtics xtics ls 100, ls 101
+
+plot  "F.tsv" using 1:2 with lines notitle,
+
+set out "Stepfitness_q0.pdf"
+set title "Cost outside anyons"
+plot  "F.tsv" using 1:3 with lines notitle,
+
+
+set out "Stepfitness_anyons.pdf"
+set title "Cost of anyon localization"
+plot  "F.tsv" using 1:($4+$5) with lines notitle
+
+
+set out "Stepfitness_energy.pdf"
+set title "Energy of states"
+plot  "F.tsv" using 1:7 with lines notitle
+set ylabel "Energy (t)"
+
+
+
+set out "Stepfitness_overlap.pdf"
+set yrange [0.99:1.01]
+set title "Overlap between adjacent steps "
+plot  "F.tsv" using 1:6 with lines notitle
+set ylabel "Overlap"
+
+
+
+unset yrange
+set term pdf size 9,3;
+set out "Stepfitness_crazy.pdf"
+set title "Cost function between key-states"
+set xlabel "Key-State (at all integers)"
+set ylabel "F (arbitrary units)"
+set key out
+
+set xtics 1
+set mxtics 5
+
+set style line 100 lt 1 lc rgb "dark-gray" lw 0.5
+set style line 101 lt 1 lc rgb "light-gray" lw 0.25
+
+set grid mytics ytics ls 100, ls 101
+set grid mxtics xtics ls 100, ls 101
+
+plot  "F_crazy.tsv" using 1:2 with lines notitle,
+
+set out "Stepfitness_q0_crazy.pdf"
+set title "Cost outside anyons"
+plot  "F_crazy.tsv" using 1:3 with lines notitle,
+
+
+set out "Stepfitness_anyons_crazy.pdf"
+set title "Cost of anyon localization"
+plot  "F_crazy.tsv" using 1:($4+$5) with lines notitle
+
+
+set out "Stepfitness_energy_crazy.pdf"
+set title "Energy of states"
+plot  "F_crazy.tsv" using 1:7 with lines notitle
+set ylabel "Energy (t)"
+
+
+
+set out "Stepfitness_overlap_crazy.pdf"
+set yrange [0.99:1.01]
+set title "Overlap between adjacent steps "
+plot  "F_crazy.tsv" using 1:6 with lines notitle
+set ylabel "Overlap"
+
+
+
+

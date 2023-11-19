@@ -1,0 +1,607 @@
+Eigval [0] (-9.67992,2.56805e-17)
+Potentials
+0
+-0.0160296 -0.370739 -0.324598 0.332929 0.124346 0.113562 
+-0.0701157 1.13966 1.21703 -0.322336 -0.0270041 -0.00698277 
+0.0765541 -0.130179 0.07444 0.14367 -0.079045 0.0980685 
+0.107031 -0.0963197 0.143295 0.0890103 -0.134777 0.0844471 
+-0.0258912 -0.0117682 -0.312789 1.20527 1.13146 -0.0361524 
+0.113865 0.101512 0.295406 -0.282554 -0.32915 -0.00645246 
+1
+0.119532 0.0170555 0.0795448 0.106071 -0.0635654 -0.0231341 
+0.122072 -0.0365288 -0.0802484 -0.139562 1.12227 -0.316221 
+0.288224 -0.319206 0.132844 0.0968559 1.21045 -0.272468 
+-0.302089 1.20835 0.0763483 0.136151 -0.31378 0.287122 
+-0.353709 1.1228 -0.129799 -0.0940636 -0.00713817 0.100439 
+-0.0159926 -0.0538677 0.0787445 0.111892 -0.0260132 0.109371 
+2
+-0.0160296 -0.370739 -0.324598 0.332929 0.124346 0.113562 
+-0.0701157 1.13966 1.21703 -0.322336 -0.0270041 -0.00698277 
+0.0765541 -0.130179 0.07444 0.14367 -0.079045 0.0980685 
+0.107031 -0.0963197 0.143295 0.0890103 -0.134777 0.0844471 
+-0.0258912 -0.0117682 -0.312789 1.20527 1.13146 -0.0361524 
+0.113865 0.101512 0.295406 -0.282554 -0.32915 -0.00645246 
+Saving 0
+Substep 0
+Saved 0 0
+With fitness 0.4081
+Substep 0.02
+Overlap (0.9952,8.496e-16)
+RETURNING TO DEFAULT ZOOM
+Substep 0.04
+Overlap (0.998,2.356e-16)
+Substep 0.06
+Overlap (0.9989,-9.198e-16)
+Saved 0 0.06
+With fitness 0.4644
+Substep 0.08
+Overlap (0.9992,-4.336e-16)
+Substep 0.1
+Overlap (0.9993,1.092e-16)
+Substep 0.12
+Overlap (0.9993,-4.802e-16)
+Saved 0 0.12
+With fitness 0.4681
+Substep 0.14
+Overlap (0.9991,1.138e-16)
+Substep 0.16
+Overlap (0.9982,-4.014e-17)
+Saved 0 0.16
+With fitness 0.4747
+Substep 0.18
+Overlap (0.988,2.841e-17)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 1 AND REDO STEP WITH NEW STEP-SIZE 0.01
+Substep 0.17
+Overlap (0.9987,9.194e-17)
+Substep 0.18
+Overlap (0.9946,8.173e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 2 AND REDO STEP WITH NEW STEP-SIZE 0.005
+Substep 0.175
+Overlap (0.9992,-1.139e-15)
+Substep 0.18
+Overlap (0.998,1.749e-16)
+Substep 0.185
+Overlap (0.9945,-1.175e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 3 AND REDO STEP WITH NEW STEP-SIZE 0.0025
+Substep 0.1825
+Overlap (0.999,2.757e-16)
+Substep 0.185
+Overlap (0.9982,-2.556e-16)
+Substep 0.1875
+Overlap (0.9968,2.212e-16)
+Substep 0.19
+Overlap (0.9945,4.25e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 4 AND REDO STEP WITH NEW STEP-SIZE 0.00125
+Substep 0.1887
+Overlap (0.9988,-2.09e-16)
+Substep 0.19
+Overlap (0.9984,-3.622e-16)
+Substep 0.1912
+Overlap (0.998,2.04e-16)
+Substep 0.1925
+Overlap (0.9976,-1.668e-16)
+Substep 0.1937
+Overlap (0.9974,2.387e-16)
+Substep 0.195
+Overlap (0.9973,-3.949e-17)
+Substep 0.1962
+Overlap (0.9974,-2.207e-16)
+Substep 0.1975
+Overlap (0.9978,5.925e-17)
+Substep 0.1987
+Overlap (0.9982,1.672e-16)
+Substep 0.2
+Overlap (0.9986,4.95e-16)
+Substep 0.2012
+Overlap (0.9989,-1.388e-17)
+Saved 0 0.2012
+With fitness 0.9049
+Substep 0.2025
+Overlap (0.9992,-1.34e-16)
+Substep 0.2037
+Overlap (0.9994,-1.159e-16)
+Substep 0.205
+Overlap (0.9995,-1.062e-16)
+Substep 0.2062
+Overlap (0.9997,-5.474e-17)
+Substep 0.2075
+Overlap (0.9997,1.323e-16)
+RETURNING TO DEFAULT ZOOM
+Substep 0.2275
+Overlap (0.9857,-7.501e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 1 AND REDO STEP WITH NEW STEP-SIZE 0.01
+Substep 0.2175
+Overlap (0.9936,-1.977e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 2 AND REDO STEP WITH NEW STEP-SIZE 0.005
+Substep 0.2125
+Overlap (0.9977,5.269e-17)
+Substep 0.2175
+Overlap (0.999,-2.526e-16)
+Substep 0.2225
+Overlap (0.9995,-8.385e-17)
+Substep 0.2275
+Overlap (0.9997,-7.85e-16)
+RETURNING TO DEFAULT ZOOM
+Substep 0.2475
+Overlap (0.9975,1.149e-16)
+Substep 0.2675
+Overlap (0.9986,3.559e-16)
+Saved 0 0.2675
+With fitness 0.9232
+Substep 0.2875
+Overlap (0.9989,1.502e-17)
+Substep 0.3075
+Overlap (0.9991,-2.8e-16)
+Saved 0 0.3075
+With fitness 0.9479
+Substep 0.3275
+Overlap (0.9993,-6.082e-17)
+Substep 0.3475
+Overlap (0.9994,2.008e-16)
+Substep 0.3675
+Overlap (0.9994,-3.459e-17)
+Saved 0 0.3675
+With fitness 0.9696
+Substep 0.3875
+Overlap (0.9995,-2.835e-16)
+Substep 0.4075
+Overlap (0.9995,3.539e-16)
+Saved 0 0.4075
+With fitness 0.9776
+Substep 0.4275
+Overlap (0.9995,-6.553e-16)
+Substep 0.4475
+Overlap (0.9995,-7.948e-16)
+Substep 0.4675
+Overlap (0.9996,-3.806e-17)
+Saved 0 0.4675
+With fitness 0.9831
+Substep 0.4875
+Overlap (0.9996,-9.552e-17)
+Substep 0.5075
+Overlap (0.9996,-1.272e-16)
+Saved 0 0.5075
+With fitness 0.9848
+Substep 0.5275
+Overlap (0.9996,-5.896e-16)
+Substep 0.5475
+Overlap (0.9996,7.47e-17)
+Substep 0.5675
+Overlap (0.9995,-2.429e-17)
+Saved 0 0.5675
+With fitness 0.9843
+Substep 0.5875
+Overlap (0.9995,-6.42e-16)
+Substep 0.6075
+Overlap (0.9995,1.764e-16)
+Saved 0 0.6075
+With fitness 0.9799
+Substep 0.6275
+Overlap (0.9995,2.263e-16)
+Substep 0.6475
+Overlap (0.9994,3.189e-16)
+Substep 0.6675
+Overlap (0.9994,-5.21e-17)
+Saved 0 0.6675
+With fitness 0.9652
+Substep 0.6875
+Overlap (0.9993,3.032e-16)
+Substep 0.7075
+Overlap (0.9992,1.344e-17)
+Saved 0 0.7075
+With fitness 0.9502
+Substep 0.7275
+Overlap (0.999,1.099e-16)
+Substep 0.7475
+Overlap (0.9987,7.767e-16)
+Substep 0.7675
+Overlap (0.998,4.058e-17)
+Saved 0 0.7675
+With fitness 0.9141
+Substep 0.7875
+Overlap (0.9939,-8.367e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 1 AND REDO STEP WITH NEW STEP-SIZE 0.01
+Substep 0.7775
+Overlap (0.999,8.895e-17)
+Substep 0.7875
+Overlap (0.9977,3.829e-18)
+RETURNING TO DEFAULT ZOOM
+Substep 0.8075
+Overlap (0.8767,9.823e-17)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 1 AND REDO STEP WITH NEW STEP-SIZE 0.01
+Substep 0.7975
+Overlap (0.9905,1.929e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 2 AND REDO STEP WITH NEW STEP-SIZE 0.005
+Substep 0.7925
+Overlap (0.9985,-3.488e-16)
+Substep 0.7975
+Overlap (0.9965,6.123e-17)
+Substep 0.8025
+Overlap (0.9902,-7.738e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 3 AND REDO STEP WITH NEW STEP-SIZE 0.0025
+Substep 0.8
+Overlap (0.9982,3.936e-16)
+Substep 0.8025
+Overlap (0.9969,-4.746e-17)
+Saved 0 0.8025
+With fitness 0.871
+Substep 0.805
+Overlap (0.9948,1.056e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 4 AND REDO STEP WITH NEW STEP-SIZE 0.00125
+Substep 0.8037
+Overlap (0.9989,-1.551e-16)
+Substep 0.805
+Overlap (0.9986,-9.399e-17)
+Substep 0.8062
+Overlap (0.9982,5.074e-16)
+Substep 0.8075
+Overlap (0.9979,-3.189e-16)
+Substep 0.8087
+Overlap (0.9977,-4.889e-16)
+Substep 0.81
+Overlap (0.9977,8.896e-17)
+Substep 0.8112
+Overlap (0.9978,-3.371e-16)
+Substep 0.8125
+Overlap (0.9981,-8.273e-16)
+Substep 0.8138
+Overlap (0.9984,-4.188e-17)
+Substep 0.815
+Overlap (0.9987,6.337e-16)
+Substep 0.8163
+Overlap (0.999,1.935e-16)
+Substep 0.8175
+Overlap (0.9992,1.769e-16)
+Substep 0.8188
+Overlap (0.9994,-2.302e-16)
+Substep 0.82
+Overlap (0.9995,-3.19e-16)
+Substep 0.8213
+Overlap (0.9996,-5.477e-16)
+Substep 0.8225
+Overlap (0.9997,-2.264e-16)
+RETURNING TO DEFAULT ZOOM
+Substep 0.8425
+Overlap (0.985,-1.445e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 1 AND REDO STEP WITH NEW STEP-SIZE 0.01
+Substep 0.8325
+Overlap (0.9932,1.312e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 2 AND REDO STEP WITH NEW STEP-SIZE 0.005
+Substep 0.8275
+Overlap (0.9975,-1.839e-16)
+Substep 0.8325
+Overlap (0.9989,2.185e-16)
+Substep 0.8375
+Overlap (0.9995,-2.255e-17)
+Substep 0.8425
+Overlap (0.9997,-6.866e-16)
+RETURNING TO DEFAULT ZOOM
+Substep 0.8625
+Overlap (0.998,1.116e-16)
+Saved 0 0.8625
+With fitness 0.4723
+Substep 0.8825
+Overlap (0.999,1.858e-16)
+Substep 0.9025
+Overlap (0.9992,-9.242e-16)
+Saved 0 0.9025
+With fitness 0.466
+Substep 0.9225
+Overlap (0.9992,7.042e-17)
+Substep 0.9425
+Overlap (0.9991,2.746e-17)
+Substep 0.9625
+Overlap (0.9989,1.216e-16)
+Saved 0 0.9625
+With fitness 0.4485
+Substep 0.9825
+Overlap (0.9983,-5.527e-17)
+DID 108 DYNAMIC STEPS
+Saving 1
+Substep 0
+Overlap (0.9978,5.345e-16)
+Saved 1 0
+With fitness 0.4093
+Substep 0.02
+Overlap (0.9972,-1.682e-16)
+RETURNING TO DEFAULT ZOOM
+Substep 0.04
+Overlap (0.9984,-6.866e-17)
+Substep 0.06
+Overlap (0.9989,1.356e-16)
+Saved 1 0.06
+With fitness 0.4585
+Substep 0.08
+Overlap (0.9992,-3.648e-17)
+Substep 0.1
+Overlap (0.9992,3.361e-17)
+Substep 0.12
+Overlap (0.9992,1.639e-16)
+Saved 1 0.12
+With fitness 0.4699
+Substep 0.14
+Overlap (0.9989,-2.419e-16)
+Substep 0.16
+Overlap (0.9976,5.096e-17)
+Saved 1 0.16
+With fitness 0.4744
+Substep 0.18
+Overlap (0.9776,2.498e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 1 AND REDO STEP WITH NEW STEP-SIZE 0.01
+Substep 0.17
+Overlap (0.9978,-1.231e-17)
+Substep 0.18
+Overlap (0.9894,-2.806e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 2 AND REDO STEP WITH NEW STEP-SIZE 0.005
+Substep 0.175
+Overlap (0.9984,-9.484e-16)
+Substep 0.18
+Overlap (0.996,-5.96e-16)
+Substep 0.185
+Overlap (0.9887,-3.458e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 3 AND REDO STEP WITH NEW STEP-SIZE 0.0025
+Substep 0.1825
+Overlap (0.9979,-4.02e-16)
+Substep 0.185
+Overlap (0.9964,-5.692e-19)
+Substep 0.1875
+Overlap (0.9941,2.916e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 4 AND REDO STEP WITH NEW STEP-SIZE 0.00125
+Substep 0.1862
+Overlap (0.9987,1.833e-16)
+Substep 0.1875
+Overlap (0.9984,3.394e-17)
+Substep 0.1887
+Overlap (0.9981,-1.955e-16)
+Substep 0.19
+Overlap (0.9978,6.634e-16)
+Substep 0.1912
+Overlap (0.9977,-2.299e-16)
+Substep 0.1925
+Overlap (0.9977,1.563e-16)
+Substep 0.1937
+Overlap (0.9979,-4.56e-16)
+Substep 0.195
+Overlap (0.9982,1.085e-16)
+Substep 0.1962
+Overlap (0.9986,-2.274e-17)
+Substep 0.1975
+Overlap (0.9989,1.314e-16)
+Substep 0.1987
+Overlap (0.9991,3.635e-16)
+Substep 0.2
+Overlap (0.9993,-2.197e-16)
+Substep 0.2012
+Overlap (0.9995,4.002e-17)
+Saved 1 0.2012
+With fitness 0.8949
+Substep 0.2025
+Overlap (0.9996,-5.817e-16)
+Substep 0.2037
+Overlap (0.9997,-1.598e-16)
+Substep 0.205
+Overlap (0.9998,-4.538e-16)
+RETURNING TO DEFAULT ZOOM
+Substep 0.225
+Overlap (0.9857,5.66e-17)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 1 AND REDO STEP WITH NEW STEP-SIZE 0.01
+Substep 0.215
+Overlap (0.9938,-8.249e-17)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 2 AND REDO STEP WITH NEW STEP-SIZE 0.005
+Substep 0.21
+Overlap (0.9978,-3.155e-16)
+Substep 0.215
+Overlap (0.999,1.449e-17)
+Substep 0.22
+Overlap (0.9995,-1.042e-16)
+Substep 0.225
+Overlap (0.9997,-7.655e-17)
+RETURNING TO DEFAULT ZOOM
+Substep 0.245
+Overlap (0.9973,-4.591e-16)
+Substep 0.265
+Overlap (0.9985,-7.107e-17)
+Saved 1 0.265
+With fitness 0.9348
+Substep 0.285
+Overlap (0.9989,-2.408e-16)
+Substep 0.305
+Overlap (0.9991,-5.616e-17)
+Saved 1 0.305
+With fitness 0.9556
+Substep 0.325
+Overlap (0.9993,-1.103e-16)
+Substep 0.345
+Overlap (0.9994,-5.473e-16)
+Substep 0.365
+Overlap (0.9994,1.055e-16)
+Saved 1 0.365
+With fitness 0.9745
+Substep 0.385
+Overlap (0.9995,2.58e-16)
+Substep 0.405
+Overlap (0.9995,-6.416e-16)
+Saved 1 0.405
+With fitness 0.9817
+Substep 0.425
+Overlap (0.9995,-8.242e-16)
+Substep 0.445
+Overlap (0.9995,-1.824e-17)
+Substep 0.465
+Overlap (0.9996,7.077e-17)
+Saved 1 0.465
+With fitness 0.9854
+Substep 0.485
+Overlap (0.9996,-2.013e-16)
+Substep 0.505
+Overlap (0.9996,2.565e-16)
+Saved 1 0.505
+With fitness 0.9843
+Substep 0.525
+Overlap (0.9996,-1.1e-17)
+Substep 0.545
+Overlap (0.9996,-1.088e-16)
+Substep 0.565
+Overlap (0.9996,1.392e-16)
+Saved 1 0.565
+With fitness 0.9808
+Substep 0.585
+Overlap (0.9995,-1.798e-16)
+Substep 0.605
+Overlap (0.9995,1.884e-17)
+Saved 1 0.605
+With fitness 0.9755
+Substep 0.625
+Overlap (0.9995,-1.147e-16)
+Substep 0.645
+Overlap (0.9994,-2.076e-16)
+Substep 0.665
+Overlap (0.9994,-2.887e-16)
+Saved 1 0.665
+With fitness 0.9596
+Substep 0.685
+Overlap (0.9993,9.649e-18)
+Substep 0.705
+Overlap (0.9992,1.858e-16)
+Saved 1 0.705
+With fitness 0.9413
+Substep 0.725
+Overlap (0.999,1.479e-16)
+Substep 0.745
+Overlap (0.9988,3.973e-16)
+Substep 0.765
+Overlap (0.9981,2.669e-16)
+Saved 1 0.765
+With fitness 0.8978
+Substep 0.785
+Overlap (0.9942,-6.911e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 1 AND REDO STEP WITH NEW STEP-SIZE 0.01
+Substep 0.775
+Overlap (0.9991,-1.673e-16)
+Substep 0.785
+Overlap (0.9978,2.114e-17)
+RETURNING TO DEFAULT ZOOM
+Substep 0.805
+Overlap (0.8547,3.816e-17)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 1 AND REDO STEP WITH NEW STEP-SIZE 0.01
+Substep 0.795
+Overlap (0.9899,1.203e-15)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 2 AND REDO STEP WITH NEW STEP-SIZE 0.005
+Substep 0.79
+Overlap (0.9985,6.095e-16)
+Substep 0.795
+Overlap (0.9962,1.984e-17)
+Substep 0.8
+Overlap (0.9884,-3.97e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 3 AND REDO STEP WITH NEW STEP-SIZE 0.0025
+Substep 0.7975
+Overlap (0.9979,1.451e-16)
+Substep 0.8
+Overlap (0.9962,-2.327e-16)
+Substep 0.8025
+Overlap (0.9935,6.418e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 4 AND REDO STEP WITH NEW STEP-SIZE 0.00125
+Substep 0.8012
+Overlap (0.9986,3.451e-16)
+Saved 1 0.8012
+With fitness 0.8871
+Substep 0.8025
+Overlap (0.9982,-3.189e-16)
+Substep 0.8037
+Overlap (0.9978,5.603e-16)
+Substep 0.805
+Overlap (0.9974,-3.857e-17)
+Substep 0.8062
+Overlap (0.9973,-9.46e-17)
+Substep 0.8075
+Overlap (0.9974,-2.602e-18)
+Substep 0.8087
+Overlap (0.9976,-3.69e-16)
+Substep 0.81
+Overlap (0.998,-3.76e-16)
+Substep 0.8113
+Overlap (0.9984,-4.6e-17)
+Substep 0.8125
+Overlap (0.9988,9.368e-17)
+Substep 0.8138
+Overlap (0.9991,2.317e-16)
+Substep 0.815
+Overlap (0.9993,-3.641e-16)
+Substep 0.8163
+Overlap (0.9995,1.541e-16)
+Substep 0.8175
+Overlap (0.9996,-3.666e-16)
+Substep 0.8188
+Overlap (0.9997,8.297e-17)
+Substep 0.82
+Overlap (0.9998,-1.077e-15)
+RETURNING TO DEFAULT ZOOM
+Substep 0.84
+Overlap (0.988,-3.533e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 1 AND REDO STEP WITH NEW STEP-SIZE 0.01
+Substep 0.83
+Overlap (0.9946,4.405e-16)
+EMERGENCY STEPSIZE DECRESE 
+GO TO ZOOM LEVEL 2 AND REDO STEP WITH NEW STEP-SIZE 0.005
+Substep 0.825
+Overlap (0.998,-4.863e-16)
+Substep 0.83
+Overlap (0.9992,-7.707e-16)
+Substep 0.835
+Overlap (0.9996,3.753e-16)
+Substep 0.84
+Overlap (0.9997,4.37e-16)
+RETURNING TO DEFAULT ZOOM
+Substep 0.86
+Overlap (0.9982,4.784e-16)
+Saved 1 0.86
+With fitness 0.4684
+Substep 0.88
+Overlap (0.9991,1.937e-16)
+Substep 0.9
+Overlap (0.9993,-1.579e-16)
+Saved 1 0.9
+With fitness 0.4682
+Substep 0.92
+Overlap (0.9993,-8.331e-17)
+Substep 0.94
+Overlap (0.9992,5.192e-17)
+Substep 0.96
+Overlap (0.9989,-1.097e-16)
+Saved 1 0.96
+With fitness 0.457
+Substep 0.98
+Overlap (0.998,1.072e-17)
+FINAL STEP
+Substep 1
+Overlap (0.9952,-1.082e-16)
+Saved 1 1
+With fitness 0.4081
+DID 108 DYNAMIC STEPS
+Final step 
+Final overlap (1,2.639e-06)

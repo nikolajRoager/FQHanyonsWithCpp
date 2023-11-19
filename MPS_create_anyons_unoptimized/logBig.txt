@@ -1,0 +1,852 @@
+Execute : bin/mps_demonstration.exe 6 6 5 2 32 pos0.tsv q6_02.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,4.60997e-18)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 9 sweeps (max 32)
+Time to LR 11876 μs
+AVERAGED time cost over 700 steps 
+Setting up H matrix:1849μs
+Get eigenvalues    :406μs
+Use QR canonization:6μs
+Update tensors     :367μs
+27943217
+Total 2629 +- 199.795
+Total time: 1862975 μs
+Ground state energy -13.0872
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 12 sweeps (max 32)
+Time to LR 9256 μs
+AVERAGED time cost over 910 steps 
+Setting up H matrix:2110μs
+Get eigenvalues    :367μs
+Use QR canonization:6μs
+Update tensors     :276μs
+48770337
+Total 2760 +- 231.502
+Total time: 2533062 μs
+This has ground state energy -10.8956
+0.0941237 : 0.106833 error 0.118967
+0.133816 : 0.123786 error 0.0810263
+0.179137 : 0.149668 error 0.196894
+0.179137 : 0.142957 error 0.253087
+0.133816 : 0.113079 error 0.183381
+0.0941237 : 0.0895026 error 0.0516305
+0.133816 : 0.16199 error 0.173923
+0.172861 : 0.176467 error 0.0204335
+0.196598 : 0.205248 error 0.0421442
+0.196598 : 0.199515 error 0.0146227
+0.172861 : 0.171956 error 0.00526537
+0.133816 : 0.147578 error 0.093255
+0.179137 : 0.201237 error 0.109821
+0.196598 : 0.183005 error 0.074275
+0.213913 : 0.207588 error 0.0304685
+0.213913 : 0.212688 error 0.00575968
+0.196598 : 0.19302 error 0.0185373
+0.179137 : 0.2078 error 0.137934
+0.179137 : 0.205865 error 0.129833
+0.196598 : 0.187532 error 0.048346
+0.213913 : 0.208902 error 0.0239854
+0.213913 : 0.204274 error 0.0471853
+0.196598 : 0.181704 error 0.0819677
+0.179137 : 0.200892 error 0.108292
+0.133816 : 0.153357 error 0.127424
+0.172861 : 0.174471 error 0.00922995
+0.196598 : 0.205606 error 0.0438102
+0.196598 : 0.203414 error 0.0335089
+0.172861 : 0.177944 error 0.028565
+0.133816 : 0.161046 error 0.169081
+0.0941237 : 0.0920806 error 0.0221883
+0.133816 : 0.113081 error 0.183364
+0.179137 : 0.1481 error 0.209572
+0.179137 : 0.151812 error 0.179995
+0.133816 : 0.128424 error 0.0419885
+0.0941237 : 0.107578 error 0.125062
+Error: 0.0895784
+Execute : bin/mps_demonstration.exe 6 6 5 3 32 pos0.tsv q6_03.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,4.60997e-18)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 9 sweeps (max 32)
+Time to LR 17534 μs
+AVERAGED time cost over 700 steps 
+Setting up H matrix:2096μs
+Get eigenvalues    :660μs
+Use QR canonization:8μs
+Update tensors     :560μs
+232919136
+Total 3325 +- 576.837
+Total time: 2378397 μs
+Ground state energy -13.2097
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 9 sweeps (max 32)
+Time to LR 13435 μs
+AVERAGED time cost over 700 steps 
+Setting up H matrix:2086μs
+Get eigenvalues    :575μs
+Use QR canonization:7μs
+Update tensors     :402μs
+110950215
+Total 3071 +- 398.121
+Total time: 2190188 μs
+This has ground state energy -11.024
+0.0941237 : 0.109389 error 0.139548
+0.133816 : 0.144756 error 0.0755764
+0.179137 : 0.16963 error 0.056046
+0.179137 : 0.157427 error 0.137908
+0.133816 : 0.111631 error 0.19874
+0.0941237 : 0.0902616 error 0.0427873
+0.133816 : 0.142578 error 0.0614519
+0.172861 : 0.155601 error 0.110926
+0.196598 : 0.184682 error 0.0645213
+0.196598 : 0.194702 error 0.00974038
+0.172861 : 0.171086 error 0.0103746
+0.133816 : 0.151552 error 0.117028
+0.179137 : 0.205907 error 0.130008
+0.196598 : 0.210061 error 0.0640918
+0.213913 : 0.224117 error 0.0455313
+0.213913 : 0.21065 error 0.0154905
+0.196598 : 0.177001 error 0.110717
+0.179137 : 0.190626 error 0.060272
+0.179137 : 0.190321 error 0.0587649
+0.196598 : 0.175505 error 0.120186
+0.213913 : 0.210427 error 0.0165667
+0.213913 : 0.223162 error 0.0414469
+0.196598 : 0.209798 error 0.0629165
+0.179137 : 0.204949 error 0.125943
+0.133816 : 0.153166 error 0.126333
+0.172861 : 0.170654 error 0.0129325
+0.196598 : 0.196232 error 0.00186742
+0.196598 : 0.184049 error 0.0681807
+0.172861 : 0.157658 error 0.0964294
+0.133816 : 0.142747 error 0.0625666
+0.0941237 : 0.090286 error 0.0425059
+0.133816 : 0.110204 error 0.21426
+0.179137 : 0.157626 error 0.13647
+0.179137 : 0.168114 error 0.0655655
+0.133816 : 0.144618 error 0.0746938
+0.0941237 : 0.108828 error 0.135114
+Error: 0.0809306
+Execute : bin/mps_demonstration.exe 6 6 5 4 32 pos0.tsv q6_04.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,4.60997e-18)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking in middle
+Performed 8 sweeps (max 32)
+Time to LR 31617 μs
+AVERAGED time cost over 595 steps 
+Setting up H matrix:2809μs
+Get eigenvalues    :1069μs
+Use QR canonization:11μs
+Update tensors     :960μs
+978906701
+Total 4850 +- 1282.66
+Total time: 2994252 μs
+Ground state energy -13.2808
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 8 sweeps (max 32)
+Time to LR 22224 μs
+AVERAGED time cost over 630 steps 
+Setting up H matrix:2147μs
+Get eigenvalues    :932μs
+Use QR canonization:9μs
+Update tensors     :667μs
+279380420
+Total 3756 +- 665.928
+Total time: 2453680 μs
+This has ground state energy -11.08
+0.0941237 : 0.104086 error 0.0957131
+0.133816 : 0.138245 error 0.0320387
+0.179137 : 0.178378 error 0.00425732
+0.179137 : 0.173999 error 0.0295285
+0.133816 : 0.134843 error 0.00761475
+0.0941237 : 0.100075 error 0.059464
+0.133816 : 0.142678 error 0.06211
+0.172861 : 0.154772 error 0.116872
+0.196598 : 0.180151 error 0.0912982
+0.196598 : 0.175965 error 0.117257
+0.172861 : 0.151098 error 0.14403
+0.133816 : 0.137002 error 0.0232544
+0.179137 : 0.19347 error 0.0740852
+0.196598 : 0.194773 error 0.00936892
+0.213913 : 0.220199 error 0.0285447
+0.213913 : 0.221307 error 0.0334096
+0.196598 : 0.200121 error 0.0176033
+0.179137 : 0.194834 error 0.0805683
+0.179137 : 0.195754 error 0.0848859
+0.196598 : 0.197745 error 0.0058011
+0.213913 : 0.220434 error 0.0295806
+0.213913 : 0.21644 error 0.011674
+0.196598 : 0.193961 error 0.013593
+0.179137 : 0.190985 error 0.0620339
+0.133816 : 0.138328 error 0.0326198
+0.172861 : 0.148473 error 0.164258
+0.196598 : 0.177131 error 0.109899
+0.196598 : 0.180553 error 0.0888652
+0.172861 : 0.158836 error 0.0882979
+0.133816 : 0.143146 error 0.0651793
+0.0941237 : 0.102497 error 0.0816944
+0.133816 : 0.13747 error 0.0265822
+0.179137 : 0.178778 error 0.00200644
+0.179137 : 0.180226 error 0.0060425
+0.133816 : 0.139186 error 0.0385836
+0.0941237 : 0.104061 error 0.0954925
+Error: 0.056503
+Execute : bin/mps_demonstration.exe 6 6 5 5 32 pos0.tsv q6_05.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,4.60997e-18)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 7 sweeps (max 32)
+Time to LR 56695 μs
+AVERAGED time cost over 560 steps 
+Setting up H matrix:4654μs
+Get eigenvalues    :1981μs
+Use QR canonization:17μs
+Update tensors     :1737μs
+3231423610
+Total 8391 +- 2402.17
+Total time: 4919483 μs
+Ground state energy -13.3121
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking in middle
+Performed 8 sweeps (max 32)
+Time to LR 38812 μs
+AVERAGED time cost over 595 steps 
+Setting up H matrix:3025μs
+Get eigenvalues    :1584μs
+Use QR canonization:13μs
+Update tensors     :1169μs
+1950619216
+Total 5793 +- 1810.62
+Total time: 3627116 μs
+This has ground state energy -11.0951
+0.0941237 : 0.100584 error 0.0642297
+0.133816 : 0.133525 error 0.00218216
+0.179137 : 0.173394 error 0.0331187
+0.179137 : 0.171154 error 0.0466394
+0.133816 : 0.131732 error 0.0158209
+0.0941237 : 0.0984097 error 0.0435524
+0.133816 : 0.142635 error 0.0618271
+0.172861 : 0.169213 error 0.021561
+0.196598 : 0.192811 error 0.019643
+0.196598 : 0.186855 error 0.0521413
+0.172861 : 0.163655 error 0.0562541
+0.133816 : 0.138475 error 0.0336476
+0.179137 : 0.190407 error 0.0591882
+0.196598 : 0.193131 error 0.0179522
+0.213913 : 0.213811 error 0.000478722
+0.213913 : 0.213381 error 0.00249457
+0.196598 : 0.19696 error 0.00183878
+0.179137 : 0.190216 error 0.0582454
+0.179137 : 0.191238 error 0.0632793
+0.196598 : 0.195283 error 0.00673474
+0.213913 : 0.21487 error 0.00445216
+0.213913 : 0.212803 error 0.00521602
+0.196598 : 0.194486 error 0.0108571
+0.179137 : 0.189984 error 0.0570928
+0.133816 : 0.140095 error 0.0448171
+0.172861 : 0.160794 error 0.0750455
+0.196598 : 0.188289 error 0.0441276
+0.196598 : 0.190204 error 0.033618
+0.172861 : 0.169988 error 0.0169032
+0.133816 : 0.141561 error 0.0547103
+0.0941237 : 0.09899 error 0.0491596
+0.133816 : 0.130626 error 0.0244209
+0.179137 : 0.172407 error 0.0390352
+0.179137 : 0.172849 error 0.0363758
+0.133816 : 0.134682 error 0.00643215
+0.0941237 : 0.100503 error 0.0634741
+Error: 0.0340713
+Execute : bin/mps_demonstration.exe 6 6 5 6 32 pos0.tsv q6_06.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,4.60997e-18)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking in middle
+Performed 6 sweeps (max 32)
+Time to LR 97620 μs
+AVERAGED time cost over 455 steps 
+Setting up H matrix:7579μs
+Get eigenvalues    :3406μs
+Use QR canonization:23μs
+Update tensors     :2885μs
+4265654813
+Total 13893 +- 3061.87
+Total time: 6725892 μs
+Ground state energy -13.3297
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking in middle
+Performed 8 sweeps (max 32)
+Time to LR 64845 μs
+AVERAGED time cost over 595 steps 
+Setting up H matrix:6224μs
+Get eigenvalues    :2790μs
+Use QR canonization:22μs
+Update tensors     :2039μs
+3838110408
+Total 11076 +- 2539.8
+Total time: 6992923 μs
+This has ground state energy -11.1087
+0.0941237 : 0.0989426 error 0.0487036
+0.133816 : 0.132839 error 0.0073549
+0.179137 : 0.171988 error 0.0415667
+0.179137 : 0.169546 error 0.0565671
+0.133816 : 0.128841 error 0.0386167
+0.0941237 : 0.0963138 error 0.022739
+0.133816 : 0.140772 error 0.049412
+0.172861 : 0.169305 error 0.0210049
+0.196598 : 0.193446 error 0.0162943
+0.196598 : 0.190909 error 0.0298005
+0.172861 : 0.167875 error 0.0296987
+0.133816 : 0.139016 error 0.0374087
+0.179137 : 0.190163 error 0.05798
+0.196598 : 0.196249 error 0.00177992
+0.213913 : 0.214001 error 0.00041219
+0.213913 : 0.212186 error 0.00813859
+0.196598 : 0.195595 error 0.00512671
+0.179137 : 0.189011 error 0.0522405
+0.179137 : 0.189302 error 0.0536974
+0.196598 : 0.193465 error 0.0161955
+0.213913 : 0.214497 error 0.00272109
+0.213913 : 0.213633 error 0.00130897
+0.196598 : 0.197705 error 0.00559805
+0.179137 : 0.189381 error 0.0540927
+0.133816 : 0.140748 error 0.0492497
+0.172861 : 0.167815 error 0.0300703
+0.196598 : 0.192211 error 0.0228239
+0.196598 : 0.190708 error 0.0308829
+0.172861 : 0.170925 error 0.0113294
+0.133816 : 0.140632 error 0.0484674
+0.0941237 : 0.0966837 error 0.0264786
+0.133816 : 0.12792 error 0.0460916
+0.179137 : 0.171124 error 0.0468241
+0.179137 : 0.173001 error 0.0354688
+0.133816 : 0.13433 error 0.00382284
+0.0941237 : 0.0989223 error 0.0485086
+Error: 0.0294021
+Execute : bin/mps_demonstration.exe 6 6 5 7 32 pos0.tsv q6_07.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,4.60997e-18)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 4 sweeps (max 32)
+Time to LR 160175 μs
+AVERAGED time cost over 350 steps 
+Setting up H matrix:9520μs
+Get eigenvalues    :5575μs
+Use QR canonization:28μs
+Update tensors     :4631μs
+1274422863
+Total 19756 +- 1908.19
+Total time: 7659451 μs
+Ground state energy -13.3421
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 5 sweeps (max 32)
+Time to LR 102415 μs
+AVERAGED time cost over 420 steps 
+Setting up H matrix:7417μs
+Get eigenvalues    :4337μs
+Use QR canonization:25μs
+Update tensors     :3000μs
+2511494363
+Total 14781 +- 2445.35
+Total time: 6867864 μs
+This has ground state energy -11.1175
+0.0941237 : 0.0984865 error 0.0442987
+0.133816 : 0.133601 error 0.0016091
+0.179137 : 0.17422 error 0.0282213
+0.179137 : 0.172058 error 0.0411415
+0.133816 : 0.130316 error 0.0268575
+0.0941237 : 0.0960673 error 0.0202314
+0.133816 : 0.139429 error 0.0402552
+0.172861 : 0.169148 error 0.021952
+0.196598 : 0.193189 error 0.0176479
+0.196598 : 0.19139 error 0.0272141
+0.172861 : 0.169266 error 0.021237
+0.133816 : 0.137933 error 0.0298471
+0.179137 : 0.187973 error 0.0470076
+0.196598 : 0.196271 error 0.00166536
+0.213913 : 0.214796 error 0.00411109
+0.213913 : 0.212615 error 0.0061056
+0.196598 : 0.196 error 0.00305272
+0.179137 : 0.186801 error 0.0410269
+0.179137 : 0.187391 error 0.0440475
+0.196598 : 0.193656 error 0.0151908
+0.213913 : 0.214301 error 0.00181089
+0.213913 : 0.213378 error 0.00250649
+0.196598 : 0.197642 error 0.00528225
+0.179137 : 0.187496 error 0.0445813
+0.133816 : 0.139495 error 0.0407096
+0.172861 : 0.167367 error 0.0328263
+0.196598 : 0.193443 error 0.0163087
+0.196598 : 0.190977 error 0.029435
+0.172861 : 0.170675 error 0.0128099
+0.133816 : 0.139185 error 0.0385772
+0.0941237 : 0.0965288 error 0.0249158
+0.133816 : 0.129215 error 0.0356089
+0.179137 : 0.173134 error 0.0346743
+0.179137 : 0.173828 error 0.0305419
+0.133816 : 0.13432 error 0.00375453
+0.0941237 : 0.0984094 error 0.0435497
+Error: 0.0244615
+Execute : bin/mps_demonstration.exe 6 6 5 8 32 pos0.tsv q6_08.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,4.60997e-18)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 5 sweeps (max 32)
+Time to LR 253517 μs
+AVERAGED time cost over 420 steps 
+Setting up H matrix:14510μs
+Get eigenvalues    :9318μs
+Use QR canonization:34μs
+Update tensors     :7252μs
+318743690
+Total 31116 +- 871.156
+Total time: 14830398 μs
+Ground state energy -13.351
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 5 sweeps (max 32)
+Time to LR 160030 μs
+AVERAGED time cost over 420 steps 
+Setting up H matrix:11080μs
+Get eigenvalues    :7085μs
+Use QR canonization:31μs
+Update tensors     :4672μs
+2572569193
+Total 22870 +- 2474.91
+Total time: 11045920 μs
+This has ground state energy -11.1232
+0.0941237 : 0.0975782 error 0.0354022
+0.133816 : 0.133895 error 0.000587259
+0.179137 : 0.175319 error 0.0217783
+0.179137 : 0.174325 error 0.0276022
+0.133816 : 0.131063 error 0.0210053
+0.0941237 : 0.0959441 error 0.0189731
+0.133816 : 0.138169 error 0.0315068
+0.172861 : 0.170218 error 0.0155293
+0.196598 : 0.193162 error 0.0177901
+0.196598 : 0.192529 error 0.0211371
+0.172861 : 0.168696 error 0.0246874
+0.133816 : 0.137593 error 0.0274523
+0.179137 : 0.186035 error 0.0370801
+0.196598 : 0.196215 error 0.00195021
+0.213913 : 0.213322 error 0.00277202
+0.213913 : 0.2134 error 0.00240372
+0.196598 : 0.196011 error 0.0029928
+0.179137 : 0.186056 error 0.0371884
+0.179137 : 0.185973 error 0.03676
+0.196598 : 0.195334 error 0.00647087
+0.213913 : 0.213657 error 0.00119823
+0.213913 : 0.212649 error 0.00594552
+0.196598 : 0.196658 error 0.000307081
+0.179137 : 0.185876 error 0.0362541
+0.133816 : 0.137913 error 0.0297081
+0.172861 : 0.168662 error 0.0248989
+0.196598 : 0.193611 error 0.0154303
+0.196598 : 0.193171 error 0.017742
+0.172861 : 0.171231 error 0.00951762
+0.133816 : 0.138283 error 0.0323014
+0.0941237 : 0.0959225 error 0.018753
+0.133816 : 0.13072 error 0.0236814
+0.179137 : 0.174336 error 0.0275408
+0.179137 : 0.174964 error 0.0238481
+0.133816 : 0.133951 error 0.00100645
+0.0941237 : 0.0975587 error 0.0352091
+Error: 0.0192892
+Execute : bin/mps_demonstration.exe 6 6 5 10 32 pos0.tsv q6_010.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,4.60997e-18)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 5 sweeps (max 32)
+Time to LR 579107 μs
+AVERAGED time cost over 420 steps 
+Setting up H matrix:36608μs
+Get eigenvalues    :34019μs
+Use QR canonization:71μs
+Update tensors     :20747μs
+2159567836
+Total 91447 +- 2267.56
+Total time: 43149388 μs
+Ground state energy -13.3603
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking in middle
+Performed 5 sweeps (max 32)
+Time to LR 362788 μs
+AVERAGED time cost over 385 steps 
+Setting up H matrix:26416μs
+Get eigenvalues    :20425μs
+Use QR canonization:47μs
+Update tensors     :12430μs
+1361802106
+Total 59319 +- 1880.73
+Total time: 26555216 μs
+This has ground state energy -11.1288
+0.0941237 : 0.0969454 error 0.0291059
+0.133816 : 0.133629 error 0.00139865
+0.179137 : 0.175211 error 0.0224083
+0.179137 : 0.173879 error 0.0302413
+0.133816 : 0.130342 error 0.0266536
+0.0941237 : 0.0949867 error 0.00908532
+0.133816 : 0.137617 error 0.0276213
+0.172861 : 0.171182 error 0.00980938
+0.196598 : 0.193869 error 0.0140753
+0.196598 : 0.193909 error 0.0138671
+0.172861 : 0.17031 error 0.0149757
+0.133816 : 0.136764 error 0.0215577
+0.179137 : 0.184895 error 0.0311431
+0.196598 : 0.197228 error 0.0031928
+0.213913 : 0.214117 error 0.000954066
+0.213913 : 0.213832 error 0.000380066
+0.196598 : 0.196783 error 0.000942352
+0.179137 : 0.184359 error 0.0283229
+0.179137 : 0.184589 error 0.0295383
+0.196598 : 0.196185 error 0.0021061
+0.213913 : 0.21383 error 0.000387081
+0.213913 : 0.213574 error 0.00158698
+0.196598 : 0.197461 error 0.00437077
+0.179137 : 0.184662 error 0.0299221
+0.133816 : 0.136893 error 0.0224771
+0.172861 : 0.169763 error 0.0182484
+0.196598 : 0.194123 error 0.0127472
+0.196598 : 0.193865 error 0.0140995
+0.172861 : 0.171721 error 0.00663608
+0.133816 : 0.137609 error 0.0275627
+0.0941237 : 0.0951329 error 0.0106079
+0.133816 : 0.130529 error 0.025186
+0.179137 : 0.17426 error 0.0279858
+0.179137 : 0.175297 error 0.0219058
+0.133816 : 0.133702 error 0.000848965
+0.0941237 : 0.0969438 error 0.0290905
+Error: 0.0158623
+Execute : bin/mps_demonstration.exe 6 6 5 12 32 pos0.tsv q6_012.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,1.81573e-17)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 4 sweeps (max 32)
+Time to LR 1031972 μs
+AVERAGED time cost over 350 steps 
+Setting up H matrix:85341μs
+Get eigenvalues    :91407μs
+Use QR canonization:109μs
+Update tensors     :35375μs
+4063751807
+Total 212233 +- 3407.45
+Total time: 82531086 μs
+Ground state energy -13.3664
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking in middle
+Performed 4 sweeps (max 32)
+Time to LR 644121 μs
+AVERAGED time cost over 315 steps 
+Setting up H matrix:60221μs
+Get eigenvalues    :55894μs
+Use QR canonization:91μs
+Update tensors     :23736μs
+2484594093
+Total 139943 +- 2808.49
+Total time: 50516606 μs
+This has ground state energy -11.1311
+0.0941237 : 0.0964222 error 0.0238376
+0.133816 : 0.133927 error 0.000828323
+0.179137 : 0.177105 error 0.0114746
+0.179137 : 0.175818 error 0.0188791
+0.133816 : 0.131388 error 0.0184821
+0.0941237 : 0.0948072 error 0.00720948
+0.133816 : 0.136667 error 0.0208634
+0.172861 : 0.170975 error 0.0110326
+0.196598 : 0.194148 error 0.012618
+0.196598 : 0.193642 error 0.0152649
+0.172861 : 0.170466 error 0.0140496
+0.133816 : 0.135833 error 0.014847
+0.179137 : 0.183538 error 0.023981
+0.196598 : 0.197133 error 0.00271543
+0.213913 : 0.214207 error 0.00137388
+0.213913 : 0.213809 error 0.000486473
+0.196598 : 0.196814 error 0.00109915
+0.179137 : 0.183095 error 0.0216164
+0.179137 : 0.183146 error 0.0218886
+0.196598 : 0.196442 error 0.000796364
+0.213913 : 0.21384 error 0.000342984
+0.213913 : 0.21403 error 0.000546213
+0.196598 : 0.197441 error 0.00426735
+0.179137 : 0.183413 error 0.0233131
+0.133816 : 0.135877 error 0.0151656
+0.172861 : 0.170168 error 0.0158277
+0.196598 : 0.193861 error 0.0141208
+0.196598 : 0.194175 error 0.012476
+0.172861 : 0.171494 error 0.00797241
+0.133816 : 0.136693 error 0.0210446
+0.0941237 : 0.09485 error 0.00765757
+0.133816 : 0.131473 error 0.0178201
+0.179137 : 0.176019 error 0.0177112
+0.179137 : 0.177002 error 0.0120616
+0.133816 : 0.1339 error 0.000628812
+0.0941237 : 0.0963832 error 0.0234429
+Error: 0.0121595
+Execute : bin/mps_demonstration.exe 6 6 5 14 32 pos0.tsv q6_014.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,1.81573e-17)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 4 sweeps (max 32)
+Time to LR 1832726 μs
+AVERAGED time cost over 350 steps 
+Setting up H matrix:174036μs
+Get eigenvalues    :133221μs
+Use QR canonization:84μs
+Update tensors     :56695μs
+3935627697
+Total 364038 +- 3353.3
+Total time: 142419735 μs
+Ground state energy -13.371
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking in middle
+Performed 4 sweeps (max 32)
+Time to LR 1083452 μs
+AVERAGED time cost over 315 steps 
+Setting up H matrix:120801μs
+Get eigenvalues    :98908μs
+Use QR canonization:75μs
+Update tensors     :35771μs
+1389090307
+Total 255557 +- 2099.95
+Total time: 91878366 μs
+This has ground state energy -11.1331
+0.0941237 : 0.0957439 error 0.0169225
+0.133816 : 0.133947 error 0.00097609
+0.179137 : 0.178455 error 0.00382333
+0.179137 : 0.177894 error 0.00698632
+0.133816 : 0.132917 error 0.00676025
+0.0941237 : 0.0950576 error 0.00982478
+0.133816 : 0.135746 error 0.0142181
+0.172861 : 0.171237 error 0.00948108
+0.196598 : 0.19425 error 0.0120869
+0.196598 : 0.193499 error 0.0160133
+0.172861 : 0.170142 error 0.0159835
+0.133816 : 0.135109 error 0.00956891
+0.179137 : 0.182205 error 0.0168392
+0.196598 : 0.197011 error 0.00209386
+0.213913 : 0.213948 error 0.00016285
+0.213913 : 0.213782 error 0.000613673
+0.196598 : 0.196791 error 0.000978568
+0.179137 : 0.182025 error 0.0158661
+0.179137 : 0.182069 error 0.0161036
+0.196598 : 0.196523 error 0.000379246
+0.213913 : 0.21393 error 8.07649e-05
+0.213913 : 0.213933 error 9.18612e-05
+0.196598 : 0.197116 error 0.00263014
+0.179137 : 0.182136 error 0.0164656
+0.133816 : 0.13521 error 0.0103112
+0.172861 : 0.170027 error 0.0166664
+0.196598 : 0.1937 error 0.014962
+0.196598 : 0.194177 error 0.0124698
+0.172861 : 0.171427 error 0.00836498
+0.133816 : 0.135716 error 0.0140032
+0.0941237 : 0.0950415 error 0.00965715
+0.133816 : 0.132828 error 0.00743518
+0.179137 : 0.178059 error 0.00605609
+0.179137 : 0.178547 error 0.00330361
+0.133816 : 0.134047 error 0.00172593
+0.0941237 : 0.0957526 error 0.0170119
+Error: 0.00880328
+Execute : bin/mps_demonstration.exe 6 6 5 16 32 pos0.tsv q6_016.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,1.81573e-17)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 4 sweeps (max 32)
+Time to LR 3060028 μs
+AVERAGED time cost over 350 steps 
+Setting up H matrix:321188μs
+Get eigenvalues    :224774μs
+Use QR canonization:82μs
+Update tensors     :89929μs
+993912522
+Total 635974 +- 1685.16
+Total time: 248137207 μs
+Ground state energy -13.3737
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 1840246 μs
+AVERAGED time cost over 280 steps 
+Setting up H matrix:219671μs
+Get eigenvalues    :164064μs
+Use QR canonization:81μs
+Update tensors     :55421μs
+3118888345
+Total 439239 +- 3337.5
+Total time: 140245416 μs
+This has ground state energy -11.1342
+0.0941237 : 0.0952784 error 0.0121195
+0.133816 : 0.133854 error 0.000286437
+0.179137 : 0.178793 error 0.00192318
+0.179137 : 0.178228 error 0.00510152
+0.133816 : 0.13313 error 0.00515088
+0.0941237 : 0.0948408 error 0.00756135
+0.133816 : 0.135182 error 0.0101031
+0.172861 : 0.171524 error 0.00779242
+0.196598 : 0.194789 error 0.00928769
+0.196598 : 0.194175 error 0.0124783
+0.172861 : 0.170907 error 0.0114352
+0.133816 : 0.134779 error 0.00714812
+0.179137 : 0.181427 error 0.0126241
+0.196598 : 0.196861 error 0.00133822
+0.213913 : 0.214007 error 0.000440424
+0.213913 : 0.213894 error 8.91632e-05
+0.196598 : 0.196727 error 0.000655014
+0.179137 : 0.181326 error 0.0120722
+0.179137 : 0.181368 error 0.0123019
+0.196598 : 0.19675 error 0.00077125
+0.213913 : 0.214009 error 0.000448521
+0.213913 : 0.213991 error 0.000364627
+0.196598 : 0.1969 error 0.00153374
+0.179137 : 0.181405 error 0.0125026
+0.133816 : 0.13481 error 0.00737569
+0.172861 : 0.170734 error 0.012457
+0.196598 : 0.194227 error 0.0122054
+0.196598 : 0.194798 error 0.00924281
+0.172861 : 0.171679 error 0.00688265
+0.133816 : 0.135258 error 0.0106628
+0.0941237 : 0.0949108 error 0.00829296
+0.133816 : 0.133193 error 0.00468105
+0.179137 : 0.178354 error 0.00438983
+0.179137 : 0.178751 error 0.00216037
+0.133816 : 0.133843 error 0.000198596
+0.0941237 : 0.0952955 error 0.0122968
+Error: 0.00656598
+Execute : bin/mps_demonstration.exe 6 6 5 24 32 pos0.tsv q6_024.tsv raw666.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-8.73426,1.81591e-17)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 11332516 μs
+AVERAGED time cost over 245 steps 
+Setting up H matrix:1790898μs
+Get eigenvalues    :945462μs
+Use QR canonization:119μs
+Update tensors     :325781μs
+1756370333
+Total 3062263 +- 2677.47
+Total time: 845675512 μs
+Ground state energy -13.3783
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Energy converged throughout sweep, breaking at end
+Performed 2 sweeps (max 32)
+Time to LR 6362141 μs
+AVERAGED time cost over 210 steps 
+Setting up H matrix:1174599μs
+Get eigenvalues    :653160μs
+Use QR canonization:103μs
+Update tensors     :183014μs
+3371378128
+Total 2010877 +- 4006.77
+Total time: 482313960 μs
+This has ground state energy -11.1355
+0.0941237 : 0.0945697 error 0.00471626
+0.133816 : 0.133754 error 0.000466971
+0.179137 : 0.178857 error 0.00156509
+0.179137 : 0.178666 error 0.00263349
+0.133816 : 0.133452 error 0.00272754
+0.0941237 : 0.0943617 error 0.00252266
+0.133816 : 0.134382 error 0.00421439
+0.172861 : 0.172309 error 0.00320642
+0.196598 : 0.196058 error 0.00275435
+0.196598 : 0.19597 error 0.00320388
+0.172861 : 0.172337 error 0.00304158
+0.133816 : 0.134255 error 0.00326678
+0.179137 : 0.180227 error 0.00604753
+0.196598 : 0.19657 error 0.000144106
+0.213913 : 0.213907 error 2.69709e-05
+0.213913 : 0.213817 error 0.000451028
+0.196598 : 0.196472 error 0.000639871
+0.179137 : 0.180042 error 0.00502658
+0.179137 : 0.180131 error 0.00551995
+0.196598 : 0.196431 error 0.00085177
+0.213913 : 0.2138 error 0.000529456
+0.213913 : 0.21388 error 0.000156327
+0.196598 : 0.196589 error 4.59638e-05
+0.179137 : 0.18013 error 0.00551196
+0.133816 : 0.134308 error 0.00366324
+0.172861 : 0.172308 error 0.00320953
+0.196598 : 0.196028 error 0.00291013
+0.196598 : 0.196091 error 0.00258711
+0.172861 : 0.172411 error 0.00260799
+0.133816 : 0.13431 error 0.00367623
+0.0941237 : 0.0943778 error 0.00269222
+0.133816 : 0.133451 error 0.00273512
+0.179137 : 0.17866 error 0.00267082
+0.179137 : 0.178839 error 0.00166777
+0.133816 : 0.133736 error 0.000598794
+0.0941237 : 0.0945156 error 0.00414653
+Error: 0.00256768

@@ -1,0 +1,722 @@
+Execute : bin/mps_demonstration.exe 9 6 5 24 32 q9k.tsv pos_k0_9.tsv pos_k1_9.tsv pos_k2_9.tsv pos_k3_9.tsv pos_k4_9.tsv pos_k5_9.tsv pos_k6_9.tsv pos_k7_9.tsv pos_k8_9.tsv pos_k9_9.tsv pos_k10_9.tsv pos_k11_9.tsv pos_k12_9.tsv pos_k13_9.tsv pos_k14_9.tsv pos_k15_9.tsv pos_k16_9.tsv pos_k17_9.tsv pos_k18_9.tsv pos_k19_9.tsv pos_k20_9.tsv pos_k21_9.tsv pos_k22_9.tsv pos_k23_9.tsv pos_k24_9.tsv pos_k25_9.tsv pos_k26_9.tsv pos_k27_9.tsv pos_k28_9.tsv pos_k29_9.tsv pos_k30_9.tsv
+Creating MPO
+Creating MPS (no potentials)
+Get MPO expectation value 
+got expectation value (-9.97134,3.43861e-17)
+Starting MPO ground search (no potential)
+Using 20 threads 
+Sweep 0right done, with energy -13.507
+Sweep left 0 done, with energy -14.7339
+Sweep 1right done, with energy -14.9331
+Sweep left 1 done, with energy -14.9538
+Sweep 2right done, with energy -14.9584
+Sweep left 2 done, with energy -14.9594
+Sweep 3right done, with energy -14.9597
+Sweep left 3 done, with energy -14.9598
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 24982779 μs
+AVERAGED time cost over 424 steps 
+Setting up H matrix:2784398μs
+Get eigenvalues    :1764511μs
+Use QR canonization:152μs
+Update tensors     :485964μs
+3364175834
+Total 5035026 +- 2816.8
+Total time: 2412092023 μs
+Ground state energy -14.9598
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.1595
+Sweep left 0 done, with energy -12.1923
+Sweep 1right done, with energy -12.4018
+Sweep left 1 done, with energy -12.4236
+Sweep 2right done, with energy -12.4286
+Sweep left 2 done, with energy -12.4293
+Sweep 3right done, with energy -12.4295
+Sweep left 3 done, with energy -12.4296
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 15579446 μs
+AVERAGED time cost over 424 steps 
+Setting up H matrix:1939737μs
+Get eigenvalues    :1309954μs
+Use QR canonization:127μs
+Update tensors     :289895μs
+1557861606
+Total 3539713 +- 1916.82
+Total time: 1715561715 μs
+This has ground state energy -12.4296
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.02
+Sweep left 0 done, with energy -12.1385
+Sweep 1right done, with energy -12.3379
+Sweep left 1 done, with energy -12.3577
+Sweep 2right done, with energy -12.3627
+Sweep left 2 done, with energy -12.3642
+Sweep 3right done, with energy -12.3648
+Sweep left 3 done, with energy -12.3649
+Sweep 4right done, with energy -12.365
+Energy converged throughout sweep, breaking in middle
+Performed 4 sweeps (max 32)
+Time to LR 15325354 μs
+AVERAGED time cost over 477 steps 
+Setting up H matrix:1970322μs
+Get eigenvalues    :1364925μs
+Use QR canonization:128μs
+Update tensors     :290038μs
+3044441791
+Total 3625414 +- 2526.36
+Total time: 1969296720 μs
+This has ground state energy -12.365
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.2702
+Sweep left 0 done, with energy -12.2269
+Sweep 1right done, with energy -12.4008
+Sweep left 1 done, with energy -12.4201
+Sweep 2right done, with energy -12.4244
+Sweep left 2 done, with energy -12.4254
+Sweep 3right done, with energy -12.4257
+Sweep left 3 done, with energy -12.4258
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 15294275 μs
+AVERAGED time cost over 424 steps 
+Setting up H matrix:1861160μs
+Get eigenvalues    :1366096μs
+Use QR canonization:127μs
+Update tensors     :285443μs
+3080091323
+Total 3512827 +- 2695.25
+Total time: 1683842229 μs
+This has ground state energy -12.4258
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.2604
+Sweep left 0 done, with energy -12.1267
+Sweep 1right done, with energy -12.3394
+Sweep left 1 done, with energy -12.3547
+Sweep 2right done, with energy -12.3569
+Sweep left 2 done, with energy -12.3574
+Sweep 3right done, with energy -12.3575
+Sweep left 3 done, with energy -12.3576
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 14154478 μs
+AVERAGED time cost over 424 steps 
+Setting up H matrix:1665558μs
+Get eigenvalues    :1230636μs
+Use QR canonization:121μs
+Update tensors     :273163μs
+2610833328
+Total 3169480 +- 2481.46
+Total time: 1506756183 μs
+This has ground state energy -12.3576
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.3552
+Sweep left 0 done, with energy -12.1253
+Sweep 1right done, with energy -12.2677
+Sweep left 1 done, with energy -12.281
+Sweep 2right done, with energy -12.2833
+Sweep left 2 done, with energy -12.2838
+Sweep 3right done, with energy -12.284
+Sweep left 3 done, with energy -12.2841
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 14412557 μs
+AVERAGED time cost over 424 steps 
+Setting up H matrix:1676806μs
+Get eigenvalues    :1257965μs
+Use QR canonization:122μs
+Update tensors     :275164μs
+1014666304
+Total 3210057 +- 1546.96
+Total time: 1524869853 μs
+This has ground state energy -12.2841
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.3722
+Sweep left 0 done, with energy -12.1897
+Sweep 1right done, with energy -12.3487
+Sweep left 1 done, with energy -12.3639
+Sweep 2right done, with energy -12.3662
+Sweep left 2 done, with energy -12.3665
+Sweep 3right done, with energy -12.3665
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14028848 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1599679μs
+Get eigenvalues    :1162958μs
+Use QR canonization:119μs
+Update tensors     :267999μs
+3631392831
+Total 3030756 +- 3128.6
+Total time: 1262021845 μs
+This has ground state energy -12.3665
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.3698
+Sweep left 0 done, with energy -12.158
+Sweep 1right done, with energy -12.289
+Sweep left 1 done, with energy -12.3018
+Sweep 2right done, with energy -12.3039
+Sweep left 2 done, with energy -12.3042
+Sweep 3right done, with energy -12.3042
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14110891 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1616025μs
+Get eigenvalues    :1189890μs
+Use QR canonization:120μs
+Update tensors     :269851μs
+2416268717
+Total 3075887 +- 2552.03
+Total time: 1280638515 μs
+This has ground state energy -12.3042
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.3348
+Sweep left 0 done, with energy -12.1756
+Sweep 1right done, with energy -12.3647
+Sweep left 1 done, with energy -12.381
+Sweep 2right done, with energy -12.3834
+Sweep left 2 done, with energy -12.3838
+Sweep 3right done, with energy -12.3838
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14000248 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1586161μs
+Get eigenvalues    :1152790μs
+Use QR canonization:118μs
+Update tensors     :266900μs
+221018882
+Total 3005971 +- 771.841
+Total time: 1251506685 μs
+This has ground state energy -12.3838
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.2516
+Sweep left 0 done, with energy -12.0446
+Sweep 1right done, with energy -12.2967
+Sweep left 1 done, with energy -12.3241
+Sweep 2right done, with energy -12.3271
+Sweep left 2 done, with energy -12.3274
+Sweep 3right done, with energy -12.3275
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 13999187 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1588508μs
+Get eigenvalues    :1130332μs
+Use QR canonization:118μs
+Update tensors     :266628μs
+617208342
+Total 2985588 +- 1289.82
+Total time: 1243864012 μs
+This has ground state energy -12.3275
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.2977
+Sweep left 0 done, with energy -12.1752
+Sweep 1right done, with energy -12.3596
+Sweep left 1 done, with energy -12.3756
+Sweep 2right done, with energy -12.3779
+Sweep left 2 done, with energy -12.3782
+Sweep 3right done, with energy -12.3782
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 13987857 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1627672μs
+Get eigenvalues    :1163816μs
+Use QR canonization:120μs
+Update tensors     :270283μs
+1247010708
+Total 3061893 +- 1833.36
+Total time: 1276385739 μs
+This has ground state energy -12.3782
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.3034
+Sweep left 0 done, with energy -12.1146
+Sweep 1right done, with energy -12.2885
+Sweep left 1 done, with energy -12.3082
+Sweep 2right done, with energy -12.3115
+Sweep left 2 done, with energy -12.3119
+Sweep 3right done, with energy -12.312
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14149758 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1732512μs
+Get eigenvalues    :1208803μs
+Use QR canonization:124μs
+Update tensors     :281318μs
+1525749152
+Total 3222759 +- 2027.94
+Total time: 1349278499 μs
+This has ground state energy -12.312
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.2889
+Sweep left 0 done, with energy -12.1996
+Sweep 1right done, with energy -12.3461
+Sweep left 1 done, with energy -12.3599
+Sweep 2right done, with energy -12.3622
+Sweep left 2 done, with energy -12.3625
+Sweep 3right done, with energy -12.3626
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 15333271 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1861345μs
+Get eigenvalues    :1338350μs
+Use QR canonization:125μs
+Update tensors     :290766μs
+1524749882
+Total 3490588 +- 2027.27
+Total time: 1467024832 μs
+This has ground state energy -12.3626
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.3154
+Sweep left 0 done, with energy -12.1146
+Sweep 1right done, with energy -12.2887
+Sweep left 1 done, with energy -12.3063
+Sweep 2right done, with energy -12.309
+Sweep left 2 done, with energy -12.3093
+Sweep 3right done, with energy -12.3094
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 15244696 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1874162μs
+Get eigenvalues    :1347108μs
+Use QR canonization:128μs
+Update tensors     :290556μs
+3277529000
+Total 3511956 +- 2972.26
+Total time: 1475706200 μs
+This has ground state energy -12.3094
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.1832
+Sweep left 0 done, with energy -12.0565
+Sweep 1right done, with energy -12.2009
+Sweep left 1 done, with energy -12.2187
+Sweep 2right done, with energy -12.2253
+Sweep left 2 done, with energy -12.2263
+Sweep 3right done, with energy -12.2265
+Sweep left 3 done, with energy -12.2266
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 15760486 μs
+AVERAGED time cost over 424 steps 
+Setting up H matrix:1899780μs
+Get eigenvalues    :1451588μs
+Use QR canonization:129μs
+Update tensors     :289471μs
+1563376828
+Total 3640970 +- 1920.21
+Total time: 1743503611 μs
+This has ground state energy -12.2266
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.183
+Sweep left 0 done, with energy -12.1293
+Sweep 1right done, with energy -12.2734
+Sweep left 1 done, with energy -12.2924
+Sweep 2right done, with energy -12.2974
+Sweep left 2 done, with energy -12.298
+Sweep 3right done, with energy -12.2981
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 15404206 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1796974μs
+Get eigenvalues    :1344722μs
+Use QR canonization:126μs
+Update tensors     :284745μs
+402710707
+Total 3426568 +- 1041.86
+Total time: 1435583796 μs
+This has ground state energy -12.2981
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.2513
+Sweep left 0 done, with energy -12.0981
+Sweep 1right done, with energy -12.2239
+Sweep left 1 done, with energy -12.2364
+Sweep 2right done, with energy -12.2391
+Sweep left 2 done, with energy -12.2395
+Sweep 3right done, with energy -12.2396
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14268766 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1587975μs
+Get eigenvalues    :1221762μs
+Use QR canonization:117μs
+Update tensors     :266517μs
+1051826221
+Total 3076372 +- 1683.78
+Total time: 1277914822 μs
+This has ground state energy -12.2396
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.3308
+Sweep left 0 done, with energy -12.188
+Sweep 1right done, with energy -12.3061
+Sweep left 1 done, with energy -12.3162
+Sweep 2right done, with energy -12.3172
+Sweep left 2 done, with energy -12.3173
+Sweep 3right done, with energy -12.3174
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14679439 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1605016μs
+Get eigenvalues    :1172673μs
+Use QR canonization:117μs
+Update tensors     :280660μs
+59971489
+Total 3058468 +- 402.055
+Total time: 1273058590 μs
+This has ground state energy -12.3174
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.3842
+Sweep left 0 done, with energy -12.2405
+Sweep 1right done, with energy -12.3661
+Sweep left 1 done, with energy -12.376
+Sweep 2right done, with energy -12.3771
+Sweep left 2 done, with energy -12.3772
+Sweep 3right done, with energy -12.3772
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 15018694 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1688814μs
+Get eigenvalues    :1189549μs
+Use QR canonization:127μs
+Update tensors     :281462μs
+2162970433
+Total 3159955 +- 2414.56
+Total time: 1321487968 μs
+This has ground state energy -12.3772
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.0913
+Sweep left 0 done, with energy -12.1838
+Sweep 1right done, with energy -12.3084
+Sweep left 1 done, with energy -12.3196
+Sweep 2right done, with energy -12.3212
+Sweep left 2 done, with energy -12.3214
+Sweep 3right done, with energy -12.3215
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14369243 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1689708μs
+Get eigenvalues    :1120673μs
+Use QR canonization:124μs
+Update tensors     :282679μs
+3810566131
+Total 3093187 +- 3204.85
+Total time: 1296097184 μs
+This has ground state energy -12.3215
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.2231
+Sweep left 0 done, with energy -12.2514
+Sweep 1right done, with energy -12.3566
+Sweep left 1 done, with energy -12.3649
+Sweep 2right done, with energy -12.3663
+Sweep left 2 done, with energy -12.3665
+Sweep 3right done, with energy -12.3665
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 15124459 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1614815μs
+Get eigenvalues    :1133574μs
+Use QR canonization:123μs
+Update tensors     :274862μs
+1457605652
+Total 3023375 +- 1982.13
+Total time: 1263223844 μs
+This has ground state energy -12.3665
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.068
+Sweep left 0 done, with energy -12.1297
+Sweep 1right done, with energy -12.279
+Sweep left 1 done, with energy -12.2991
+Sweep 2right done, with energy -12.3011
+Sweep left 2 done, with energy -12.3013
+Sweep 3right done, with energy -12.3014
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14335514 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1648061μs
+Get eigenvalues    :1186874μs
+Use QR canonization:123μs
+Update tensors     :275497μs
+1447053476
+Total 3110557 +- 1974.95
+Total time: 1298528164 μs
+This has ground state energy -12.3014
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.14
+Sweep left 0 done, with energy -12.2191
+Sweep 1right done, with energy -12.368
+Sweep left 1 done, with energy -12.3772
+Sweep 2right done, with energy -12.3781
+Sweep left 2 done, with energy -12.3782
+Sweep 3right done, with energy -12.3782
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14343354 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1618770μs
+Get eigenvalues    :1132288μs
+Use QR canonization:122μs
+Update tensors     :273950μs
+571453847
+Total 3025131 +- 1241.09
+Total time: 1263161624 μs
+This has ground state energy -12.3782
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.0127
+Sweep left 0 done, with energy -12.1733
+Sweep 1right done, with energy -12.3173
+Sweep left 1 done, with energy -12.3265
+Sweep 2right done, with energy -12.3274
+Sweep left 2 done, with energy -12.3275
+Sweep 3right done, with energy -12.3275
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14328952 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1679995μs
+Get eigenvalues    :1128251μs
+Use QR canonization:123μs
+Update tensors     :278377μs
+953503321
+Total 3086748 +- 1603.15
+Total time: 1292476227 μs
+This has ground state energy -12.3275
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.1667
+Sweep left 0 done, with energy -12.2329
+Sweep 1right done, with energy -12.3737
+Sweep left 1 done, with energy -12.3828
+Sweep 2right done, with energy -12.3837
+Sweep left 2 done, with energy -12.3838
+Sweep 3right done, with energy -12.3838
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14240705 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1606542μs
+Get eigenvalues    :1121283μs
+Use QR canonization:120μs
+Update tensors     :272724μs
+3454748689
+Total 3000670 +- 3051.56
+Total time: 1252664440 μs
+This has ground state energy -12.3838
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.0459
+Sweep left 0 done, with energy -12.1269
+Sweep 1right done, with energy -12.2865
+Sweep left 1 done, with energy -12.3017
+Sweep 2right done, with energy -12.3038
+Sweep left 2 done, with energy -12.3041
+Sweep 3right done, with energy -12.3042
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14312516 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1606369μs
+Get eigenvalues    :1161411μs
+Use QR canonization:119μs
+Update tensors     :272361μs
+3993389653
+Total 3040261 +- 3280.83
+Total time: 1267533949 μs
+This has ground state energy -12.3042
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.0951
+Sweep left 0 done, with energy -12.21
+Sweep 1right done, with energy -12.3518
+Sweep left 1 done, with energy -12.3643
+Sweep 2right done, with energy -12.3662
+Sweep left 2 done, with energy -12.3665
+Sweep 3right done, with energy -12.3665
+Energy converged throughout sweep, breaking in middle
+Performed 3 sweeps (max 32)
+Time to LR 14194807 μs
+AVERAGED time cost over 371 steps 
+Setting up H matrix:1604939μs
+Get eigenvalues    :1144700μs
+Use QR canonization:121μs
+Update tensors     :272641μs
+1250465223
+Total 3022403 +- 1835.9
+Total time: 1260818982 μs
+This has ground state energy -12.3665
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.1576
+Sweep left 0 done, with energy -12.1519
+Sweep 1right done, with energy -12.2707
+Sweep left 1 done, with energy -12.281
+Sweep 2right done, with energy -12.2832
+Sweep left 2 done, with energy -12.2837
+Sweep 3right done, with energy -12.2839
+Sweep left 3 done, with energy -12.284
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 14190173 μs
+AVERAGED time cost over 424 steps 
+Setting up H matrix:1628052μs
+Get eigenvalues    :1213759μs
+Use QR canonization:120μs
+Update tensors     :273014μs
+920694986
+Total 3114946 +- 1473.58
+Total time: 1479777703 μs
+This has ground state energy -12.284
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.1072
+Sweep left 0 done, with energy -12.2109
+Sweep 1right done, with energy -12.3423
+Sweep left 1 done, with energy -12.354
+Sweep 2right done, with energy -12.3569
+Sweep left 2 done, with energy -12.3574
+Sweep 3right done, with energy -12.3575
+Sweep left 3 done, with energy -12.3576
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 14174458 μs
+AVERAGED time cost over 424 steps 
+Setting up H matrix:1632171μs
+Get eigenvalues    :1177976μs
+Use QR canonization:120μs
+Update tensors     :273190μs
+2907090826
+Total 3083458 +- 2618.46
+Total time: 1466547699 μs
+This has ground state energy -12.3576
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.098
+Sweep left 0 done, with energy -12.2382
+Sweep 1right done, with energy -12.4024
+Sweep left 1 done, with energy -12.4201
+Sweep 2right done, with energy -12.4249
+Sweep left 2 done, with energy -12.4256
+Sweep 3right done, with energy -12.4257
+Sweep left 3 done, with energy -12.4258
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 14249471 μs
+AVERAGED time cost over 424 steps 
+Setting up H matrix:1628140μs
+Get eigenvalues    :1170396μs
+Use QR canonization:121μs
+Update tensors     :272289μs
+2895258197
+Total 3070947 +- 2613.13
+Total time: 1461082946 μs
+This has ground state energy -12.4258
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.026
+Sweep left 0 done, with energy -12.1881
+Sweep 1right done, with energy -12.3397
+Sweep left 1 done, with energy -12.3567
+Sweep 2right done, with energy -12.3626
+Sweep left 2 done, with energy -12.3641
+Sweep 3right done, with energy -12.3647
+Sweep left 3 done, with energy -12.3649
+Sweep 4right done, with energy -12.365
+Energy converged throughout sweep, breaking in middle
+Performed 4 sweeps (max 32)
+Time to LR 14193433 μs
+AVERAGED time cost over 477 steps 
+Setting up H matrix:1645694μs
+Get eigenvalues    :1155262μs
+Use QR canonization:121μs
+Update tensors     :272128μs
+1956499359
+Total 3073206 +- 2025.26
+Total time: 1644594894 μs
+This has ground state energy -12.365
+Creating MPS (with potentials)
+Starting MPO ground search (with potential)
+Using 20 threads 
+Sweep 0right done, with energy -11.1013
+Sweep left 0 done, with energy -12.2215
+Sweep 1right done, with energy -12.4063
+Sweep left 1 done, with energy -12.4253
+Sweep 2right done, with energy -12.4289
+Sweep left 2 done, with energy -12.4294
+Sweep 3right done, with energy -12.4295
+Sweep left 3 done, with energy -12.4296
+Energy converged throughout sweep, breaking at end
+Performed 3 sweeps (max 32)
+Time to LR 14179746 μs
+AVERAGED time cost over 424 steps 
+Setting up H matrix:1628202μs
+Get eigenvalues    :1139797μs
+Use QR canonization:121μs
+Update tensors     :272531μs
+3232022539
+Total 3040653 +- 2760.92
+Total time: 1448211450 μs
+This has ground state energy -12.4296

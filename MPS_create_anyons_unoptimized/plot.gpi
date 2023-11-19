@@ -1,0 +1,234 @@
+set terminal pdf size 4,4;
+set size square
+set key bmargin
+set view map
+#set title 'Eigenstate |000001>'
+
+#We want to use the same range for all plots, and i KNOW that nothing is outside this range (is normalized wavefunction squared)
+set cbrange [0.0:0.25]
+set palette defined (0 'black', 0.125 'red', 0.25 'yellow')
+
+#set xtics format ''
+set ytics ("5" 0,"4" 1,"3" 2,"2" 3,"1" 4,"0" 5)
+set xtics ("5" 5,"4" 4,"3" 3,"2" 2,"1" 1,"0" 0)
+
+
+set title font "Helvetica,20"
+set xtic font "Helvetica,20"
+set ytic font "Helvetica,20"
+set ylabel font "Helvetica,20"
+set xlabel font "Helvetica,20"
+set cblabel font "Helvetica,20"
+
+
+set xlabel 'x lattice site' offset 0,-1
+set ylabel 'y lattice site' offset -3,0
+
+set cblabel 'n^{(0)}_j'
+
+set title 'D=2'
+set output 'q02mpo.pdf'
+splot 'q02.tsv' matrix nonuniform index 0 with pm3d notitle
+set title 'D=3'
+set output 'q03mpo.pdf'
+splot 'q03.tsv' matrix nonuniform index 0 with pm3d notitle
+set output 'q04mpo.pdf'
+set title 'D=4'
+splot 'q04.tsv' matrix nonuniform index 0 with pm3d notitle
+set output 'q05mpo.pdf'
+set title 'D=5'
+splot 'q05.tsv' matrix nonuniform index 0 with pm3d notitle
+set output 'q06mpo.pdf'
+set title 'D=6'
+splot 'q06.tsv' matrix nonuniform index 0 with pm3d notitle
+set output 'q07mpo.pdf'
+set title 'D=7'
+splot 'q07.tsv' matrix nonuniform index 0 with pm3d notitle
+set output 'q08mpo.pdf'
+set title 'D=8'
+splot 'q08.tsv' matrix nonuniform index 0 with pm3d notitle
+set output 'q016mpo.pdf'
+set title 'D=16'
+splot 'q016.tsv' matrix nonuniform index 0 with pm3d notitle
+
+
+set output 'q12mpo.pdf'
+splot 'q02.tsv' matrix nonuniform index 1 with pm3d notitle
+set title 'D=2'
+set output 'q13mpo.pdf'
+splot 'q03.tsv' matrix nonuniform index 1 with pm3d notitle
+set title 'D=3'
+set output 'q14mpo.pdf'
+set title 'D=4'
+splot 'q04.tsv' matrix nonuniform index 1 with pm3d notitle
+set output 'q15mpo.pdf'
+set title 'D=5'
+splot 'q05.tsv' matrix nonuniform index 1 with pm3d notitle
+set output 'q16mpo.pdf'
+set title 'D=6'
+splot 'q06.tsv' matrix nonuniform index 1 with pm3d notitle
+set output 'q17mpo.pdf'
+set title 'D=7'
+splot 'q07.tsv' matrix nonuniform index 1 with pm3d notitle
+set output 'q18mpo.pdf'
+set title 'D=8'
+splot 'q08.tsv' matrix nonuniform index 1 with pm3d notitle
+
+
+
+set cbrange [-0.25:0.25]
+set palette defined (-0.25 'cyan', -0.125 'blue', 0 'black', 0.125 'red', 0.25 'yellow')
+
+set title 'D=2'
+set cblabel 'q_j'
+set output 'q2mpo.pdf'
+splot 'q02.tsv' matrix nonuniform index 2 with pm3d notitle
+set output 'q3mpo.pdf'
+set title 'D=3'
+splot 'q03.tsv' matrix nonuniform index 2 with pm3d notitle
+set output 'q4mpo.pdf'
+set title 'D=4'
+splot 'q04.tsv' matrix nonuniform index 2 with pm3d notitle
+set output 'q5mpo.pdf'
+set title 'D=5'
+splot 'q05.tsv' matrix nonuniform index 2 with pm3d notitle
+set output 'q6mpo.pdf'
+set title 'D=6'
+splot 'q06.tsv' matrix nonuniform index 2 with pm3d notitle
+set output 'q7mpo.pdf'
+set title 'D=7'
+splot 'q07.tsv' matrix nonuniform index 2 with pm3d notitle
+set output 'q8mpo.pdf'
+set title 'D=8'
+splot 'q08.tsv' matrix nonuniform index 2 with pm3d notitle
+set output 'q_q16mpo.pdf'
+set title 'D=16'
+splot 'q016.tsv' matrix nonuniform index 2 with pm3d notitle
+
+
+
+set notitle
+set cbrange [0.0:0.25]
+set palette defined (0 'black', 0.125 'red', 0.25 'yellow')
+
+
+set cblabel 'n^{(0)}_j'
+
+set output 'q6_24mpo.pdf'
+splot 'q6_024.tsv' matrix nonuniform index 0 with pm3d notitle
+set cblabel 'n^{(1)}_j'
+splot 'q6_024.tsv' matrix nonuniform index 1 with pm3d notitle
+set cbrange [-0.25:0.25]
+set palette defined (-0.25 'cyan', -0.125 'blue', 0 'black', 0.125 'red', 0.25 'yellow')
+set cblabel 'q_j'
+splot 'q6_024.tsv' matrix nonuniform index 2 with pm3d notitle
+set cbrange [0.0:0.25]
+set palette defined (0 'black', 0.125 'red', 0.25 'yellow')
+
+set cblabel 'n^{(0)}_j'
+set output 'q6_n0_8mpo.pdf'
+splot 'q6_08.tsv' matrix nonuniform index 0 with pm3d notitle
+set cblabel 'n^{(1)}_j'
+set output 'q6_n1_8mpo.pdf'
+splot 'q6_08.tsv' matrix nonuniform index 1 with pm3d notitle
+set cbrange [-0.25:0.25]
+set palette defined (-0.25 'cyan', -0.125 'blue', 0 'black', 0.125 'red', 0.25 'yellow')
+set cblabel 'q_j'
+set output 'q6_q_8mpo.pdf'
+splot 'q6_08.tsv' matrix nonuniform index 2 with pm3d notitle
+
+
+
+set xtics ("7" 7,"6" 6,"5" 5,"4" 4,"3" 3,"2" 2,"1" 1,"0" 0)
+
+set cbrange [0.0:0.25]
+set palette defined (0 'black', 0.125 'red', 0.25 'yellow')
+
+set cblabel 'n^{(0)}_j'
+set output 'q686_24_n0.pdf'
+splot 'q8_024.tsv' matrix nonuniform index 0 with pm3d notitle
+set output 'q686_24_n1.pdf'
+set cblabel 'n^{(1)}_j'
+splot 'q8_024.tsv' matrix nonuniform index 1 with pm3d notitle
+set cbrange [-0.25:0.25]
+set palette defined (-0.25 'cyan', -0.125 'blue', 0 'black', 0.125 'red', 0.25 'yellow')
+set output 'q686_24_q.pdf'
+set cblabel 'q_j'
+splot 'q8_024.tsv' matrix nonuniform index 2 with pm3d notitle
+
+set xtics ("8" 8,"7" 7,"6" 6,"5" 5,"4" 4,"3" 3,"2" 2,"1" 1,"0" 0)
+
+set cbrange [0.0:0.25]
+set palette defined (0 'black', 0.125 'red', 0.25 'yellow')
+set cblabel 'n^{(0)}_j'
+set output 'q9_8mpo.pdf'
+splot 'q9_08.tsv' matrix nonuniform index 0 with pm3d notitle
+set cblabel 'n^{(1)}_j'
+splot 'q9_08.tsv' matrix nonuniform index 1 with pm3d notitle
+set cbrange [-0.25:0.25]
+set palette defined (-0.25 'cyan', -0.125 'blue', 0 'black', 0.125 'red', 0.25 'yellow')
+set cblabel 'q_j'
+splot 'q9_08.tsv' matrix nonuniform index 2 with pm3d notitle
+
+
+set cbrange [0.0:0.25]
+set palette defined (0 'black', 0.125 'red', 0.25 'yellow')
+set cblabel 'n^{(0)}_j'
+set output 'q9_16mpo.pdf'
+splot 'q9_016.tsv' matrix nonuniform index 0 with pm3d notitle
+set cblabel 'n^{(1)}_j'
+splot 'q9_016.tsv' matrix nonuniform index 1 with pm3d notitle
+set cbrange [-0.25:0.25]
+set palette defined (-0.25 'cyan', -0.125 'blue', 0 'black', 0.125 'red', 0.25 'yellow')
+set cblabel 'q_j'
+splot 'q9_016.tsv' matrix nonuniform index 2 with pm3d notitle
+
+set cbrange [0.0:0.25]
+set palette defined (0 'black', 0.125 'red', 0.25 'yellow')
+
+set cblabel 'n^{(0)}_j'
+set output 'q9_24mpo.pdf'
+splot 'q9_024.tsv' matrix nonuniform index 0 with pm3d notitle
+#set cblabel 'n^{(1)}_j'
+#splot 'q9_024.tsv' matrix nonuniform index 1 with pm3d notitle
+#set cblabel 'q_j'
+#splot 'q9_024.tsv' matrix nonuniform index 2 with pm3d notitle
+
+
+
+set cblabel 'n^{(0)}_j'
+
+set output 'q9_28mpo.pdf'
+splot 'q9_028.tsv' matrix nonuniform index 0 with pm3d notitle
+
+set output 'q9_7particles_24mpo.pdf'
+splot 'q9_6_024.tsv' matrix nonuniform index 0 with pm3d notitle
+
+set output 'q9_8particles_24mpo.pdf'
+splot 'q9_7_024.tsv' matrix nonuniform index 0 with pm3d notitle
+
+set cbrange [-5.0:5.0]
+set palette defined ( -5 'cyan', -2.5 'blue', 0 'black', 2.5 'red', 5 'yellow')
+
+
+set cblabel 'Assymetry %'
+
+set output 'q9_5_024.tsv.dfx.pdf'
+splot 'q9_5_024.tsv.dfx.tsv' matrix nonuniform index 0 with pm3d notitle
+set output 'q9_5_024.tsv.dfy.pdf'
+splot 'q9_5_024.tsv.dfy.tsv' matrix nonuniform index 0 with pm3d notitle
+
+
+
+set cbrange [-100.0:100.0]
+set palette defined ( -100 'cyan', -50 'blue', 0 'black', 50 'red', 100 'yellow')
+
+set output 'q9_6_024.tsv.dfx.pdf'
+splot 'q9_6_024.tsv.dfx.tsv' matrix nonuniform index 0 with pm3d notitle
+set output 'q9_6_024.tsv.dfy.pdf'
+splot 'q9_6_024.tsv.dfy.tsv' matrix nonuniform index 0 with pm3d notitle
+
+set output 'q9_7_024.tsv.dfx.pdf'
+splot 'q9_7_024.tsv.dfx.tsv' matrix nonuniform index 0 with pm3d notitle
+set output 'q9_7_024.tsv.dfy.pdf'
+splot 'q9_7_024.tsv.dfy.tsv' matrix nonuniform index 0 with pm3d notitle

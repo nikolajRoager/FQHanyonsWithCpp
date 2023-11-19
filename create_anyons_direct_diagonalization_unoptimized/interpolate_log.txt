@@ -1,0 +1,52 @@
+ 0/16 : Interpolated fitness 0.768631
+Now optimizating 
+ 0/16 : Optimized-Interpolated fitness 0.0767961
+ 1/16 : Interpolated fitness 0.837192
+Now optimizating 
+ 1/16 : Optimized-Interpolated fitness 0.0744086
+ 2/16 : Interpolated fitness 0.886833
+Now optimizating 
+ 2/16 : Optimized-Interpolated fitness 0.22632
+ 3/16 : Interpolated fitness 0.904213
+Now optimizating 
+ 3/16 : Optimized-Interpolated fitness 0.272142
+ 4/16 : Interpolated fitness 0.899461
+Now optimizating 
+ 4/16 : Optimized-Interpolated fitness 0.102452
+ 5/16 : Interpolated fitness 0.879281
+Now optimizating 
+ 5/16 : Optimized-Interpolated fitness 0.131018
+ 6/16 : Interpolated fitness 0.847673
+Now optimizating 
+ 6/16 : Optimized-Interpolated fitness 0.26463
+ 7/16 : Interpolated fitness 0.806888
+Now optimizating 
+ 7/16 : Optimized-Interpolated fitness 0.196079
+ 8/16 : Interpolated fitness 0.758112
+Now optimizating 
+ 8/16 : Optimized-Interpolated fitness 0.342271
+ 9/16 : Interpolated fitness 0.701885
+Now optimizating 
+ 9/16 : Optimized-Interpolated fitness 0.249506
+ 10/16 : Interpolated fitness 0.638354
+Now optimizating 
+ 10/16 : Optimized-Interpolated fitness 0.218695
+ 11/16 : Interpolated fitness 0.567435
+Now optimizating 
+ 11/16 : Optimized-Interpolated fitness 0.135391
+ 12/16 : Interpolated fitness 0.496233
+Now optimizating 
+ 12/16 : Optimized-Interpolated fitness 0.174643
+ 13/16 : Interpolated fitness 0.414884
+Now optimizating 
+ 13/16 : Optimized-Interpolated fitness 0.0998079
+ 14/16 : Interpolated fitness 0.321981
+Now optimizating 
+ 14/16 : Optimized-Interpolated fitness 0.0957764
+ 15/16 : Interpolated fitness 0.214374
+Now optimizating 
+ 15/16 : Optimized-Interpolated fitness 0.0961627
+ 16/16 : Interpolated fitness 0.0894311
+Now optimizating 
+ 16/16 : Optimized-Interpolated fitness 0.0893803
+Optimized interpolated steps, with no regard for actual anyon location in (36 minutes) 

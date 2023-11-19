@@ -1,0 +1,171 @@
+States to optimize 58905
+Eigval [0] (-9.67992,2.56805e-17)
+Unoptimized fitness 1.125013349339053
+Single ground state search in 390845 seconds
+Running optimization
+Start f(x)=1.125013349339057
+Step 0	 f(x)=1.012373014286745 Function calls: 76
+Step 1	 f(x)=0.8739358642406796 Function calls: 38
+Step 2	 f(x)=0.7349903756609857 Function calls: 37
+Step 3	 f(x)=0.6549621379113566 Function calls: 37
+Step 4	 f(x)=0.6377930554417388 Function calls: 37
+Step 5	 f(x)=0.6271973080169494 Function calls: 37
+RESET B AS LINESEARCH FAILED
+Step 6	 f(x)=0.6271973080213353 Function calls: 68
+Change too small, if this continues we will break (1/16)
+Step 7	 f(x)=0.6142539416375099 Function calls: 42
+Step 8	 f(x)=0.6127072242400342 Function calls: 46
+Step 9	 f(x)=0.6096137898526035 Function calls: 40
+Step 10	 f(x)=0.609277852197956 Function calls: 41
+Step 11	 f(x)=0.5960361798870096 Function calls: 39
+Step 12	 f(x)=0.5953323794977322 Function calls: 39
+Step 13	 f(x)=0.5887893010711327 Function calls: 39
+Step 14	 f(x)=0.5738922848057055 Function calls: 37
+Step 15	 f(x)=0.5650180708030554 Function calls: 37
+Step 16	 f(x)=0.5547441450049206 Function calls: 37
+RESET B AS LINESEARCH FAILED
+Step 17	 f(x)=0.5547441450060671 Function calls: 68
+Change too small, if this continues we will break (1/16)
+Step 18	 f(x)=0.5544063643237782 Function calls: 49
+Step 19	 f(x)=0.5512562592571455 Function calls: 43
+Step 20	 f(x)=0.5510851220007158 Function calls: 46
+Step 21	 f(x)=0.5498756135858109 Function calls: 43
+Step 22	 f(x)=0.5494439860412164 Function calls: 43
+Step 23	 f(x)=0.5493921164836565 Function calls: 45
+Change too small, if this continues we will break (1/16)
+Step 24	 f(x)=0.5493779606330697 Function calls: 43
+Change too small, if this continues we will break (2/16)
+Step 25	 f(x)=0.5491534134197007 Function calls: 43
+Step 26	 f(x)=0.5400873304139046 Function calls: 38
+Step 27	 f(x)=0.5384353469489092 Function calls: 38
+Step 28	 f(x)=0.5339727288435938 Function calls: 37
+Step 29	 f(x)=0.529355529062606 Function calls: 37
+RESET B AS LINESEARCH FAILED
+Step 30	 f(x)=0.5293555290638357 Function calls: 68
+Change too small, if this continues we will break (1/16)
+Step 31	 f(x)=0.5291634487714602 Function calls: 51
+Step 32	 f(x)=0.5286486955407171 Function calls: 45
+Step 33	 f(x)=0.5255318375912512 Function calls: 44
+Step 34	 f(x)=0.5249945631210996 Function calls: 43
+Step 35	 f(x)=0.5212889563688576 Function calls: 41
+Step 36	 f(x)=0.5175019691786134 Function calls: 40
+Step 37	 f(x)=0.5164711405559097 Function calls: 40
+Step 38	 f(x)=0.5143991874135337 Function calls: 39
+Step 39	 f(x)=0.5138814281012962 Function calls: 40
+Step 40	 f(x)=0.5085155778333301 Function calls: 38
+Step 41	 f(x)=0.5072247318516894 Function calls: 37
+Step 42	 f(x)=0.4969534078441776 Function calls: 37
+RESET B AS LINESEARCH FAILED
+Step 43	 f(x)=0.4969534078449673 Function calls: 68
+Change too small, if this continues we will break (1/16)
+Step 44	 f(x)=0.4954572699903426 Function calls: 52
+Step 45	 f(x)=0.495306556723177 Function calls: 48
+Step 46	 f(x)=0.4937904623233439 Function calls: 45
+Step 47	 f(x)=0.4937770536991707 Function calls: 46
+Change too small, if this continues we will break (1/16)
+Step 48	 f(x)=0.4935058711307073 Function calls: 43
+Step 49	 f(x)=0.4921367197773284 Function calls: 41
+Step 50	 f(x)=0.4911352272885121 Function calls: 42
+Step 51	 f(x)=0.490281933261736 Function calls: 40
+Step 52	 f(x)=0.4876290093032423 Function calls: 40
+Step 53	 f(x)=0.4864237951634229 Function calls: 41
+Step 54	 f(x)=0.4860953038927178 Function calls: 40
+Step 55	 f(x)=0.4833210974956401 Function calls: 38
+Step 56	 f(x)=0.4778644716287581 Function calls: 38
+Step 57	 f(x)=0.4737191403645527 Function calls: 37
+Step 58	 f(x)=0.4705776975402602 Function calls: 37
+RESET B AS LINESEARCH FAILED
+Step 59	 f(x)=0.4705776975411713 Function calls: 68
+Change too small, if this continues we will break (1/16)
+Step 60	 f(x)=0.4700081519145843 Function calls: 52
+Step 61	 f(x)=0.4683466565701669 Function calls: 47
+Step 62	 f(x)=0.4681327915923697 Function calls: 48
+Step 63	 f(x)=0.4679128441762427 Function calls: 46
+Step 64	 f(x)=0.4677031457863763 Function calls: 45
+Step 65	 f(x)=0.4676337976801457 Function calls: 44
+Change too small, if this continues we will break (1/16)
+Step 66	 f(x)=0.4674875564805802 Function calls: 43
+Step 67	 f(x)=0.4665086973572555 Function calls: 42
+Step 68	 f(x)=0.4662320449696291 Function calls: 43
+Step 69	 f(x)=0.4654414084549567 Function calls: 40
+Step 70	 f(x)=0.4632517570963862 Function calls: 40
+Step 71	 f(x)=0.4630355814353648 Function calls: 38
+Step 72	 f(x)=0.4628159252043404 Function calls: 37
+Step 73	 f(x)=0.4584724273994574 Function calls: 37
+RESET B AS LINESEARCH FAILED
+Step 74	 f(x)=0.4584724274009909 Function calls: 68
+Change too small, if this continues we will break (1/16)
+Step 75	 f(x)=0.4583365509742262 Function calls: 52
+Step 76	 f(x)=0.4579233598030711 Function calls: 47
+Step 77	 f(x)=0.4569163530284766 Function calls: 45
+Step 78	 f(x)=0.456101151376256 Function calls: 44
+Step 79	 f(x)=0.4560484248297803 Function calls: 45
+Change too small, if this continues we will break (1/16)
+Step 80	 f(x)=0.4558570041588413 Function calls: 43
+Step 81	 f(x)=0.4557684323500781 Function calls: 42
+Change too small, if this continues we will break (1/16)
+Step 82	 f(x)=0.4537917754566602 Function calls: 41
+Step 83	 f(x)=0.4523991950363829 Function calls: 42
+Step 84	 f(x)=0.4523486400262897 Function calls: 42
+Change too small, if this continues we will break (1/16)
+Step 85	 f(x)=0.451610028433526 Function calls: 41
+Step 86	 f(x)=0.4514127578790677 Function calls: 42
+Step 87	 f(x)=0.4506751935772626 Function calls: 39
+Step 88	 f(x)=0.4484478177308273 Function calls: 37
+Step 89	 f(x)=0.443054316790699 Function calls: 37
+RESET B AS LINESEARCH FAILED
+Step 90	 f(x)=0.4430543167929126 Function calls: 68
+Change too small, if this continues we will break (1/16)
+Step 91	 f(x)=0.4430162647416355 Function calls: 51
+Change too small, if this continues we will break (2/16)
+Step 92	 f(x)=0.4421850216387165 Function calls: 48
+Step 93	 f(x)=0.4417094765252912 Function calls: 48
+Step 94	 f(x)=0.4409884614048853 Function calls: 46
+Step 95	 f(x)=0.4402976811222629 Function calls: 45
+Step 96	 f(x)=0.4392827573604583 Function calls: 44
+Step 97	 f(x)=0.4388397109941778 Function calls: 43
+Step 98	 f(x)=0.4384799196669985 Function calls: 42
+Step 99	 f(x)=0.4380576800717631 Function calls: 43
+Step 100	 f(x)=0.4379683493325613 Function calls: 43
+Change too small, if this continues we will break (1/16)
+Step 101	 f(x)=0.4378569921438699 Function calls: 43
+Step 102	 f(x)=0.4374676690504821 Function calls: 39
+Step 103	 f(x)=0.4361835478502405 Function calls: 38
+Step 104	 f(x)=0.4355791372870567 Function calls: 37
+Step 105	 f(x)=0.4286560234008562 Function calls: 37
+RESET B AS LINESEARCH FAILED
+Step 106	 f(x)=0.4286560234042087 Function calls: 68
+Change too small, if this continues we will break (1/16)
+Step 107	 f(x)=0.4285567037555946 Function calls: 53
+Change too small, if this continues we will break (2/16)
+Step 108	 f(x)=0.4279289134741248 Function calls: 47
+Step 109	 f(x)=0.4277988736157831 Function calls: 47
+Step 110	 f(x)=0.4277634436007646 Function calls: 46
+Change too small, if this continues we will break (1/16)
+Step 111	 f(x)=0.4270010966122429 Function calls: 44
+Step 112	 f(x)=0.4269976469974788 Function calls: 46
+Change too small, if this continues we will break (1/16)
+Step 113	 f(x)=0.4265635371609474 Function calls: 42
+Step 114	 f(x)=0.4261785826507718 Function calls: 43
+Step 115	 f(x)=0.4256746641471644 Function calls: 43
+Step 116	 f(x)=0.4247597331261455 Function calls: 41
+Step 117	 f(x)=0.4244868897269409 Function calls: 42
+Step 118	 f(x)=0.4240486197590022 Function calls: 38
+Step 119	 f(x)=0.4218018857851777 Function calls: 38
+Step 120	 f(x)=0.416264033267463 Function calls: 37
+Step 121	 f(x)=0.4141687331242605 Function calls: 37
+RESET B AS LINESEARCH FAILED
+Step 122	 f(x)=0.4141687331244437 Function calls: 68
+Change too small, if this continues we will break (1/16)
+Step 123	 f(x)=0.4139558900120046 Function calls: 49
+Step 124	 f(x)=0.4139552054423855 Function calls: 52
+Change too small, if this continues we will break (1/16)
+Step 125	 f(x)=0.4138944737562333 Function calls: 48
+Change too small, if this continues we will break (2/16)
+Step 126	 f(x)=0.4131972358196694 Function calls: 44
+Step 127	 f(x)=0.4129441108669168 Function calls: 46
+Step 128	 f(x)=0.4128622866271773 Function calls: 45
+ALGORITHM FAILED: too many steps
+Finished in 5671 calls
+Optimized symmetric potential in 128 steps (38 minutes) 
+Optimized fitness 0.4128622866267913
