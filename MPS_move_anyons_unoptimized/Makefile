@@ -72,4 +72,5 @@ $(ODIR)/approx.o: $(SRCDIR)/approx.cpp $(IDIR)/approx.hpp
 
 clean:
 ;rm -f $(ODIR)/*.o
+;rm -f *.pdf
 ;rm -f $(OUTDIR)/*.exe
